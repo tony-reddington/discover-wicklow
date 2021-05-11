@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.logo-size {
+    width: 100%;
+    height: auto;
+}
+
+.font-style {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.navbar {
+    background-color: #33954A !important;
+}
+
+.navbar .nav-item a{
+    color: #ffffff !important;
+    font-size: 2em;
+    font-family: 'lato'!important;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #203448;
+}
