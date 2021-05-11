@@ -11,4 +11,14 @@
 * View selection of photography for travel inspiration with text showing where each image was taken.
 * Contact the website owner for further travel information and guidance.
 
+### User Stories
+
+#### As a user, i want - 
+* the navigation bar clearly visible so i can easily navigate the website.
+* the website responsive across devices so i can swap and change devices as i please and still see the website clearly.
+* the page laid out neatly so that i can find information effortlessly.
+* all sights, walking trail, hotel and restaurant information provided on a map so i can plan my trip based on my available travel time.
+* contact information available for each map marker recommendation so i can contact to make a booking or do further research to plan my trip.
+* to see images of the Wicklow area to help inspire and identify where i want to travel in the region.
+* a website contact page so i can make contact with the website owner to ask further questions.
 
