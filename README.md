@@ -22,3 +22,11 @@
 * to see images of the Wicklow area to help inspire and identify where i want to travel in the region.
 * a website contact page so i can make contact with the website owner to ask further questions.
 
+### Site owner goals
+
+#### As the site site owner, i want - 
+* to influence the user to travel and spend money in the Wicklow region by providing recommendations.
+* to provide them with Sight/Walking tour/ Hotel and Restaurant information as markers on a map. 
+* provide labels for each map marker giving the user contact and website information where available allowing the user to book or do further research.
+* to provide an image gallery of Wicklow and help the user choose which areas they want to visit.
+* the user to have a contact page where they can contact me through the website and ask questions about any category not covered on the map or any miscellaneous questions.
