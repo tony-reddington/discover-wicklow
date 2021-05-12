@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.logo-size {
-    width: 100%;
-    height: auto;
-}
-
 .font-style {
     font-family: 'Lato', sans-serif !important;
 }
-
+/*******************************************Navbar styling*/
 .navbar {
     background-color: #33954A !important;
 }
@@ -27,6 +22,13 @@
     border-color: #203448;
 }
 
+/*********************Navbar logo image styling************************/
+.logo-size {
+    width: 100%;
+    height: auto;
+}
+
+/*********************Main image styling************************/
 #main-image {
     width: 100%;
     height: auto;
@@ -34,7 +36,25 @@
 
 #about-paragraph {
     text-align: center;
-    padding: 20px;
+    
     font-size: 1.5em;
     color: #203448;
+}
+/*********************Map control buttons styling************************/
+#map-buttons-div {
+    display: flex!important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.map-buttons {
+    width: 10em;
+    height: auto;
+    margin: 5px 5px;
+    color: #ffffff;
+    background-color: #2D7549;
+    border: 3px #2D7549 solid;
+    font-size: 3vw;
 }
