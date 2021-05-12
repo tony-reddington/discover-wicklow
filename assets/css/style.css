@@ -26,3 +26,8 @@
 .navbar-light .navbar-toggler {
     border-color: #203448;
 }
+
+#main-image {
+    width: 100%;
+    height: auto;
+}
