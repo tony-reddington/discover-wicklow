@@ -30,3 +30,54 @@
 * provide labels for each map marker giving the user contact and website information where available allowing the user to book or do further research.
 * to provide an image gallery of Wicklow and help the user choose which areas they want to visit.
 * the user to have a contact page where they can contact me through the website and ask questions about any category not covered on the map or any miscellaneous questions.
+
+### Design
+
+#### Colour Scheme
+
+#### Typography
+
+#### Imagery
+
+#### Wireframes
+
+## Features
+
+### Existing Features
+
+### Features for future implimentation
+
+## Technology Used
+
+### Languages used
+
+### Frameworks/Libraries and Programs used
+
+## Testing
+
+### Testing user Stories
+-   #### User Goals
+
+-   #### User Stories
+
+-   #### Site Owner Goals
+
+### Further Testing
+
+## Deployment
+
+### Github Pages
+
+### Forking the GitHub Repository
+
+### Making a Local Clone
+
+## Credits
+
+### Code
+
+### Content
+
+### Media
+
+### Acknowledgements
