@@ -3,6 +3,7 @@
 .font-style {
     font-family: 'Lato', sans-serif !important;
 }
+
 /*******************************************Navbar styling*/
 .navbar {
     background-color: #33954A !important;
@@ -58,3 +59,21 @@
     border: 3px #2D7549 solid;
     font-size: 3vw;
 }
+
+.main-footer {
+    background-color: #33954A;
+    padding: 15px 0px;
+}
+
+footer p {
+    color: #ffffff;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 3vw;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: large;
+}
+
