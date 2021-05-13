@@ -50,8 +50,24 @@
 ## Technology Used
 
 ### Languages used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks/Libraries and Programs used
+1.  [Balsamiq](https://balsamiq.com/)
+    - Balsamic was used to build wireframes for the 3 x website pages.
+2.  [Font Awesome](https://fontawesome.com/)
+    - Font awesome was used for the social media icons in the footer.
+3.  [Google fonts](https://fonts.google.com/)
+    - The Lato font that i used across the website was taken from Google fonts.
+4.  [Istockphoto](https://www.istockphoto.com/)
+    - Istockphoto was used for all the website images.
+5.  [TinyJPG](https://tinyjpg.com/)
+    - Tinyjpg was used to reduce the size of all the website images.
+6.  [Befunky photo editor](https://www.befunky.com/)
+    - Befunky photo editor was used to crop and resize images.
+7.  [Bootstrap](https://getbootstrap.com/)
+    - Bootstrap was used for the navbar and to make my website more responsive across different size devices.
 
 ## Testing
 
