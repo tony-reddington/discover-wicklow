@@ -93,14 +93,10 @@ footer p {
 @media only screen and (min-width: 576px) {
     #about-paragraph {
     font-size: .90em;
-    padding: 20px 30px 10px 40px;
+    padding: 20px 40px 10px 40px;
 }
  
 #map-buttons-div {
-    display: flex!important;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
     padding: 0px 40px;
 }
  
@@ -112,3 +108,4 @@ footer p {
     font-size: 25px;
 }
 }
+
