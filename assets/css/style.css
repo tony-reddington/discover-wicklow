@@ -109,3 +109,29 @@ footer p {
 }
 }
 
+@media only screen and (min-width: 768px) {
+.navbar {
+    padding: 0 2rem 0 0;
+}
+.navbar .nav-item a{
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+    #about-paragraph {
+    font-size: 1.2em;
+    padding: 25px 45px 15px 45px;
+}
+ 
+#map-buttons-div {
+    padding: 0px 45px;
+}
+ 
+footer p {
+    font-size: 2.1vw;
+}
+ 
+.icon {
+    font-size: 35px;
+}
+}
+
