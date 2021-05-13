@@ -7,6 +7,7 @@
 /*******************************************Navbar styling*/
 .navbar {
     background-color: #33954A !important;
+    padding: 0 1rem 0 0;
 }
 
 .navbar .nav-item a{
