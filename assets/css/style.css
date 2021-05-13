@@ -12,8 +12,10 @@
 
 .navbar .nav-item a{
     color: #ffffff !important;
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'lato'!important;
+    padding-left: 10px;
+    text-decoration: underline;
 }
 
 .navbar-toggler {
