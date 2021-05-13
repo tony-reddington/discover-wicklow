@@ -10,10 +10,10 @@
     padding: 0 1rem 0 0;
 }
 
-.navbar .nav-item a{
+.navbar .nav-item a {
     color: #ffffff !important;
     font-size: 1em;
-    font-family: 'lato'!important;
+    font-family: 'lato' !important;
     padding-left: 10px;
     text-decoration: underline;
 }
@@ -44,9 +44,10 @@
     color: #203448;
     padding: 20px 20px 0 20px;
 }
+
 /*********************Map control buttons styling************************/
 #map-buttons-div {
-    display: flex!important;
+    display: flex !important;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -88,50 +89,94 @@ footer p {
     margin: 0;
     padding: 10px;
 }
+
 /*********************Media queries************************/
 
 @media only screen and (min-width: 576px) {
     #about-paragraph {
-    font-size: .90em;
-    padding: 20px 40px 10px 40px;
-}
- 
-#map-buttons-div {
-    padding: 0px 40px;
-}
- 
-footer p {
-    font-size: 2vw;
-}
- 
-.icon {
-    font-size: 25px;
-}
+        font-size: .90em;
+        padding: 20px 40px 10px 40px;
+    }
+
+    #map-buttons-div {
+        padding: 0px 40px;
+    }
+
+    footer p {
+        font-size: 2vw;
+    }
+
+    .icon {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-.navbar {
-    padding: 0 2rem 0 0;
-}
-.navbar .nav-item a{
-    font-size: 1.2em;
-    padding-left: 20px;
-}
+    .navbar {
+        padding: 0 2rem 0 0;
+    }
+
+    .navbar .nav-item a {
+        font-size: 1.2em;
+        padding-left: 20px;
+    }
+
     #about-paragraph {
-    font-size: 1.2em;
-    padding: 25px 45px 15px 45px;
-}
- 
-#map-buttons-div {
-    padding: 0px 45px;
-}
- 
-footer p {
-    font-size: 2.1vw;
-}
- 
-.icon {
-    font-size: 35px;
-}
+        font-size: 1.2em;
+        padding: 25px 45px 15px 45px;
+    }
+
+    #map-buttons-div {
+        padding: 0px 45px;
+    }
+
+    footer p {
+        font-size: 2.1vw;
+    }
+
+    .icon {
+        font-size: 35px;
+    }
 }
 
+@media only screen and (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2.2rem;
+        padding-left: 2.2rem;
+        padding-top: 2.5rem;
+        border-bottom: 3px #ffffff solid;
+    }
+
+    .navbar .nav-item a {
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .nav-link {
+        padding: .25rem 0;
+    }
+
+    #about-paragraph {
+        font-size: 1.7em;
+        padding: 30px 50px 30px 50px;
+    }
+
+    #map-buttons-div {
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0px 50px;
+    }
+
+    footer p {
+        font-size: 2.3vw;
+    }
+
+    .icon {
+        font-size: 45px;
+    }
+}
