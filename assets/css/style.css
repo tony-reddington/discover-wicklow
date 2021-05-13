@@ -38,9 +38,9 @@
 
 #about-paragraph {
     text-align: center;
-    
-    font-size: 1.5em;
+    font-size: .75em;
     color: #203448;
+    padding: 20px 20px 0 20px;
 }
 /*********************Map control buttons styling************************/
 #map-buttons-div {
