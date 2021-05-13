@@ -61,20 +61,29 @@
     font-size: 3vw;
 }
 
+/*********************Map styling************************/
+
+#map {
+    height: 200px;
+}
+
+/*********************Footer styling************************/
 .main-footer {
     background-color: #33954A;
-    padding: 15px 0px;
+    padding: 10px 0px 5px 0px;
 }
 
 footer p {
     color: #ffffff;
-    padding: 5px 0;
+    padding: 2.5px 0;
     margin: 0;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 .icon {
     color: #ffffff;
     font-size: large;
+    margin: 0;
+    padding: 10px;
 }
 
