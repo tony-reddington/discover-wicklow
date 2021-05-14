@@ -62,6 +62,7 @@
     background-color: #2D7549;
     border: 3px #2D7549 solid;
     font-size: 3vw;
+    box-shadow: 5px 5px 10px #808080;
 }
 
 /*********************Map styling************************/
