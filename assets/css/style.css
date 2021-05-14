@@ -183,3 +183,42 @@ footer p {
         font-size: 45px;
     }
 }
+
+@media only screen and (min-width: 992px) {
+    .logo-size {
+        max-width: 300px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    #mainImage-div {
+        max-height: 675px;
+        overflow: hidden;
+    }
+
+    #about-paragraph {
+        font-size: 20px;
+        padding: 30px 70px 30px 70px;
+    }
+
+    #map-buttons-div {
+        padding: 0px 70px;
+    }
+
+    .map-buttons {
+        max-width: 500px;
+        color: #ffffff;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    .icon {
+        font-size: 45px;
+    }
+}
