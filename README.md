@@ -95,6 +95,6 @@
 ### Content
 
 ### Media
-* All images were downloaded from [Istock](https://www.istockphoto.com/) with credit to WoutervandenBroek
+* All images were downloaded from [Istock](https://www.istockphoto.com/) with credit to WoutervandenBroek, RobinsonBecquart
 * The company logo was created using [Canva](https://www.canva.com/).
 ### Acknowledgements
