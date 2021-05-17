@@ -253,6 +253,25 @@ form label {
     font-size: 16px;
 }
 
+/*********************Send message button styling************************/
+
+.submit-div {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#submit-button {
+    background-color: #2D7549;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 10px #808080;
+    border-radius: 10px;
+    width: 140px;
+    height: 35px;
+    text-transform: capitalize;
+}
+
 
 
 
