@@ -142,9 +142,10 @@ footer p {
 
 @media only screen and (min-width: 992px) {
     .navbar {
-    align-items: flex-end;
-    padding-bottom: 1rem;
+        align-items: flex-end;
+        padding-bottom: 1rem;
     }
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 2.2rem;
         padding-left: 2.2rem;
@@ -189,6 +190,7 @@ footer p {
     .logo-size {
         max-width: 300px;
     }
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 4rem;
         padding-left: 4rem;
@@ -243,7 +245,7 @@ footer p {
 }
 
 form.container {
-    padding: 25px 40px!important;
+    padding: 25px 40px !important;
     width: 80%;
     height: auto;
     margin: 0 auto;
@@ -256,11 +258,13 @@ form label {
     font-weight: 700;
 }
 
-.input-two, .input-three {
+.input-two,
+.input-three {
     padding-top: 20px;
 }
 
-.input-box, #text-box {
+.input-box,
+#text-box {
     border: 1px #203448 solid;
     width: 100%;
 }
@@ -293,27 +297,28 @@ form label {
 
 @media only screen and (max-width: 359px) {
     #background-image {
-    padding-bottom: 50px;
-}
-.form-header {
-    font-size: 16px;
-    padding: 20px 0;
-}
+        padding-bottom: 50px;
+    }
 
-form.container {
-    padding: 25px 20px!important;
-    width: 90%;
-}
+    .form-header {
+        font-size: 16px;
+        padding: 20px 0;
+    }
 
-form label {
-    font-size: 14px;
-}
+    form.container {
+        padding: 25px 20px !important;
+        width: 90%;
+    }
 
-#submit-button {
-    font-size: 12px;
-    width: 110px;
-    height: 25px;
-}
+    form label {
+        font-size: 14px;
+    }
+
+    #submit-button {
+        font-size: 12px;
+        width: 110px;
+        height: 25px;
+    }
 }
 
 @media only screen and (min-width: 490px) {
