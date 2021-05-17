@@ -226,9 +226,11 @@ footer p {
 
 /*********************Contact.html styling************************/
 #background-image {
-    background: url("../images/contact-background.jpg");
-    height: 100%;
+    background-image: url("../images/contact-background.jpg");
     padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .form-header {
