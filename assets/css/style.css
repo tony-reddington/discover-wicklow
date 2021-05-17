@@ -271,8 +271,9 @@ form label {
 }
 
 #text-box {
-    height: 150px;
+    max-height: 200px;
     font-size: 16px;
+    resize: none;
 }
 
 /*********************Send message button styling************************/
