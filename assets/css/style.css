@@ -223,3 +223,36 @@ footer p {
         font-size: 45px;
     }
 }
+
+/*********************Contact.html styling************************/
+
+form.container {
+    padding: 25px 40px!important;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px #808080;
+}
+
+form label {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.input-two, .input-three {
+    padding-top: 20px;
+}
+
+.input-box, #text-box {
+    border: 1px #203448 solid;
+    width: 100%;
+}
+
+#text-box {
+    height: 150px;
+    font-size: 16px;
+}
+
+
+
+
