@@ -318,25 +318,52 @@ form label {
 
 @media only screen and (min-width: 490px) {
     #background-image {
-    padding-bottom: 70px;
-    background-position: center left;
-}
-.form-header {
-    font-size: 25px;
-    padding: 30px 0;
+        padding-bottom: 70px;
+        background-position: center left;
+    }
+
+    .form-header {
+        font-size: 25px;
+        padding: 30px 0;
+    }
+
+    form.container {
+        max-width: 350px;
+    }
+
+    form label {
+        font-size: 16px;
+    }
+
+    #submit-button {
+        font-size: 15px;
+        width: 150px;
+        height: 35px;
+    }
 }
 
-form.container {
-    max-width: 350px;
-}
+@media only screen and (min-width: 768px) {
+    #background-image {
+        padding-bottom: 80px;
+        background-position: center center;
+    }
 
-form label {
-    font-size: 16px;
-}
+    .form-header {
+        font-size: 35px;
+        padding: 35px 0;
+    }
 
-#submit-button {
-    font-size: 15px;
-    width: 150px;
-    height: 35px;
-}
+    form.container {
+        max-width: 400px;
+    }
+
+    form label {
+        font-size: 20px;
+    }
+
+    #submit-button {
+        font-size: 20px;
+        width: 180px;
+        height: 40px;
+    }
 }
