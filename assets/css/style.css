@@ -225,13 +225,28 @@ footer p {
 }
 
 /*********************Contact.html styling************************/
+#background-image {
+    background: url("../images/contact-background.jpg");
+    height: 120%;
+    padding-bottom: 30px;
+}
+
+.form-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
 
 form.container {
     padding: 25px 40px!important;
     width: 80%;
     height: auto;
-    margin: 20px auto;
+    margin: 0 auto;
     box-shadow: 5px 5px 10px #808080;
+    background-color: #fff;
 }
 
 form label {
@@ -271,7 +286,5 @@ form label {
     height: 35px;
     text-transform: capitalize;
 }
-
-
 
 
