@@ -95,6 +95,6 @@
 ### Content
 
 ### Media
-* All images were downloaded from [Istock](https://www.istockphoto.com/) with credit to WoutervandenBroek, RobinsonBecquart
+* All images were downloaded from [Istock](https://www.istockphoto.com/) with credit to WoutervandenBroek, RobinsonBecquart, trabantos, Pablo Escuder Cano, yykkaa, Roman Overko, Dawid Kalisinski Photography, eldarsverdlov, espiegle, Aitormmfoto & MNStudio.
 * The company logo was created using [Canva](https://www.canva.com/).
 ### Acknowledgements
