@@ -412,7 +412,6 @@ form label {
     color: #203448;
 }
 
-
 #gallery-container {
     display: flex;
     flex-flow: row wrap;
@@ -422,8 +421,7 @@ form label {
 
 #gallery-container a {
     flex-basis: 90%;
-    margin: 5px;
-}
+    margin: 5px;90}
 
 #gallery-container a img {
     width: 100%;
@@ -431,3 +429,58 @@ form label {
 
 
 
+/*********************gallery.html media queries************************/
+
+@media only screen and (min-width: 400px) {
+    .gallery-text {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .gallery-text {
+        font-size: 30px;
+    }
+
+    #gallery-container {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    #gallery-container a {
+        flex-basis: 40%;
+        margin: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .gallery-text {
+        font-size: 35px;
+    }
+
+    #gallery-container {
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .gallery-text {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .gallery-text {
+        font-size: 45px;
+    }
+
+    #gallery-container {
+        margin-bottom: 50px;
+    }
+
+    #gallery-container a {
+        flex-basis: 30%;
+        margin: 15px 10px;
+    }
+}   }
+}
