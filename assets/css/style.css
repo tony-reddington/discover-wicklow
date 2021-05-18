@@ -399,3 +399,35 @@ form label {
         height: 45px;
     }
 }
+
+/*********************gallery.html styling************************/
+#gallery-header {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.gallery-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #203448;
+}
+
+
+#gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#gallery-container a {
+    flex-basis: 90%;
+    margin: 5px;
+}
+
+#gallery-container a img {
+    width: 100%;
+}
+
+
+
