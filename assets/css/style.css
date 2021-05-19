@@ -486,3 +486,10 @@ form label {
         margin: 15px 10px;
     }
 }   
+
+/*********************gallery.html media queries************************/
+
+#map {
+    width: 100%;
+    height: 200px;
+}
