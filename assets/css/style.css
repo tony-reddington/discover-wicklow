@@ -333,8 +333,7 @@ form label {
 
 @media only screen and (min-width: 490px) {
     #background-image {
-        padding-bottom: 70px;
-        background-position: center left;
+        background-position: top;
     }
 
     .form-header {
