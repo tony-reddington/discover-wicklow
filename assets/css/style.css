@@ -4,6 +4,16 @@
     font-family: 'Lato', sans-serif !important;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
 /*******************************************Navbar styling*/
 .navbar {
     background-color: #33954A !important;
@@ -75,6 +85,7 @@
 .main-footer {
     background-color: #33954A;
     padding: 10px 0px 5px 0px;
+    margin-top: auto;
 }
 
 footer p {
