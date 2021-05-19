@@ -244,6 +244,7 @@ footer p {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    height: 100vh;
 }
 
 .form-header {
@@ -310,7 +311,7 @@ form label {
 
 @media only screen and (max-width: 359px) {
     #background-image {
-        padding-bottom: 50px;
+        
     }
 
     .form-header {
@@ -432,7 +433,8 @@ form label {
 
 #gallery-container a {
     flex-basis: 90%;
-    margin: 5px;90}
+    margin: 5px;
+}
 
 #gallery-container a img {
     width: 100%;
@@ -493,5 +495,4 @@ form label {
         flex-basis: 30%;
         margin: 15px 10px;
     }
-}   }
-}
+}   
