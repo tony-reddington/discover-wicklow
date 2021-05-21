@@ -78,7 +78,9 @@ body {
 /*********************Map styling************************/
 
 #map {
-    height: 200px;
+    width: auto;
+    height: 250px;
+    margin: 20px;
 }
 
 /*********************Footer styling************************/
@@ -486,10 +488,3 @@ form label {
         margin: 15px 10px;
     }
 }   
-
-/*********************gallery.html media queries************************/
-
-#map {
-    width: 100%;
-    height: 200px;
-}
