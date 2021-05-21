@@ -116,6 +116,11 @@ footer p {
         padding: 0px 40px;
     }
 
+    #map {
+    height: 350px;
+    margin: 40px;
+    }
+
     footer p {
         font-size: 2vw;
     }
@@ -142,6 +147,11 @@ footer p {
 
     #map-buttons-div {
         padding: 0px 45px;
+    }
+ 
+    #map {
+    height: 450px;
+    margin: 45px;
     }
 
     footer p {
@@ -190,6 +200,11 @@ footer p {
         padding: 0px 50px;
     }
 
+    #map {
+    height: 550px;
+    margin: 50px;
+    }
+
     footer p {
         font-size: 2.3vw;
     }
@@ -199,7 +214,7 @@ footer p {
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
     .logo-size {
         max-width: 300px;
     }
@@ -221,6 +236,11 @@ footer p {
 
     #map-buttons-div {
         padding: 0px 70px;
+    }
+
+    #map {
+    height: 700px;
+    margin: 70px;
     }
 
     .map-buttons {
