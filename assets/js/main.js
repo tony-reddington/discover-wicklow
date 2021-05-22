@@ -120,5 +120,75 @@ function initMap() {
       addmarker(location, infowindow)
     })
   });
-
+  // Array that holds all "sights" cooardinates and info window content on index.html//
+  const WALKING_TRAIL_LOCATION = [{
+      location: ['53.1967833770718', '-6.0902360493991'],
+      infowindow: '<p class="infoWindowHeader font-style">Bray to Greystones Cliff Walk</p>' +
+        '<p class="infoWindowText font-style">Coastal trail connecting Bray & Greystones, with picturesque views of the Irish Sea & Wicklow Mountains.</p>' +
+        '<p class="infoWindowLink font-style"><a href="https://www.theirishroadtrip.com/bray-to-greystones-cliff-walk/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.167049', '-6.525192'],
+      infowindow: '<p class="infoWindowHeader font-style">The Blessington Greenway</p>' +
+        '<p class="infoWindowText font-style">This trail starts in Blessington town and weaves between the Blessington Lake shore and forestry.</p>' +
+        '<p class="infoWindowLink font-style"><a href="https://blessington.ie/greenway/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.154221', '-6.149833'],
+      infowindow: '<p class="infoWindowHeader font-style">The Sugarloaf</p>' +
+        '<p class="infoWindowText font-style">Short trail to the top of the Sugarloaf mountain with fantastic views of Wicklow and as far as Dublin.</p>' +
+        '<p class="infoWindowLink font-style"><a href="https://en.wikipedia.org/wiki/Great_Sugar_Loaf" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.130833', '-6.240556'],
+      infowindow: '<p class="infoWindowHeader font-style">Djouce Mountain</p>' +
+        '<p class="infoWindowText font-style">This mountain trail offers spectacular views from the summit accesible via a boardwalk.</p>' +
+        '<p class="infoWindowLink font-style"><a href="https://mountainviews.ie/summit/91/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['52.914311', '-6.226029'],
+      infowindow: '<p class="infoWindowHeader font-style">Avondale Forest Park</p>' +
+        '<p class="infoWindowText font-style">This Forest Park provides a variety of trails for walking with each trail varying in length.</p>' +
+        '<p class="infoWindowLink font-style"><a href="https://www.coillte.ie/site/avondale-forest-park/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.011559', '-6.325636'],
+      infowindow: '<p class="infoWindowHeader font-style">Wicklow Way</p>' +
+        '<p class="infoWindowText font-style">This trail is for the more experiences walker that and could take multiple hours but offers landscape views that are incredible!</p>' +
+        '<p class="infoWindowLink font-style"><a href="https://www.wicklowway.com/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['52.97317', '-6.388721'],
+      infowindow: '<p class="infoWindowHeader font-style">Miners Path</p>' +
+        '<p class="infoWindowText font-style">Zigzag track through a Pine forest climbing high leading you to breathtaking view of the Valley below.</p>' +
+        '<p class="infoWindowLink font-style"><a href="https://www.allaroundireland.ie/glenmalure-valley/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.107371', '-6.217245'],
+      infowindow: '<p class="infoWindowHeader font-style">Ballinastoe</p>' +
+        '<p class="infoWindowText font-style">Trail offering fantastic views across the Wicklow Mountains and home to a pictureque wooden staircase throught he forest.</p>' +
+        '<p class="infoWindowLink font-style"><a href="https://gramho.com/location/ballinastoe-woods/836522161" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.006927', '-6.343671'],
+      infowindow: '<p class="infoWindowHeader font-style">Glendalough Spinc</p>' +
+        '<p class="infoWindowText font-style">This Glendalough Spinc trail offers spectacular views of the Glendalough valley. Different route options depending on your fitness level.</p>' +
+        '<p class="infoWindowLink font-style"><a href="https://hikesneardublin.com/glendalough-spink-walk/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['52.967148', '-6.464596'],
+      infowindow: '<p class="infoWindowHeader font-style">Lugnaquilla</p>' +
+        '<p class="infoWindowText font-style">The highest mountain trail in Wicklow allows beaituful view of the ajoining wicklow mountains.</p>' +
+        '<p class="infoWindowLink font-style"><a href="https://www.theirishroadtrip.com/the-lugnaquilla-hike/" target="_blank">Click for more info!</a></p>'
+    }
+  ]
+  $('#btn-2').click(function () {
+    WALKING_TRAIL_LOCATION.forEach(item => {
+      const {
+        location,
+        infowindow
+      } = item
+      addmarker(location, infowindow)
+    })
+  });
 }
