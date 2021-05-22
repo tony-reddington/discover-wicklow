@@ -111,4 +111,14 @@ function initMap() {
         '<p class="infoWindowLink font-style"><a href="https://en.wikipedia.org/wiki/Seefin_Passage_Tomb" target="_blank">Click for more info!</a></p>'
     }
   ]
+  $('#btn-1').click(function () {
+    SIGHTS_LOCATION.forEach(item => {
+      const {
+        location,
+        infowindow
+      } = item
+      addmarker(location, infowindow)
+    })
+  });
+
 }
