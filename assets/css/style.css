@@ -83,6 +83,25 @@ body {
     margin: 20px;
 }
 
+/*********************Map info window styling************************/
+.infoWindowHeader {
+    font-size: 14px;
+    font-weight: bold;
+    color: #203448;
+}
+
+.infoWindowText {
+    font-size: 14px;
+    color: #203448;
+}
+
+.infoWindowLink a {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #2D7549;
+    font-weight: bold;
+}
+
 /*********************Footer styling************************/
 .main-footer {
     background-color: #33954A;
