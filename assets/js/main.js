@@ -120,7 +120,7 @@ function initMap() {
       addmarker(location, infowindow)
     })
   });
-  // Array that holds all "sights" cooardinates and info window content on index.html//
+  // Array that holds all "walking trail" cooardinates and info window content on index.html//
   const WALKING_TRAIL_LOCATION = [{
       location: ['53.1967833770718', '-6.0902360493991'],
       infowindow: '<p class="infoWindowHeader font-style">Bray to Greystones Cliff Walk</p>' +
