@@ -348,6 +348,16 @@ form label {
     text-transform: capitalize;
 }
 
+/*********************Styling of message that will appear beneath the Send Message button************************/
+#onSubmitText {
+    font-size: 80%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    color: #33954A;
+}
+
 /*********************Contact.html media queries************************/
 
 @media only screen and (max-width: 359px) {
