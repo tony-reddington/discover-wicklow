@@ -191,4 +191,51 @@ function initMap() {
       addmarker(location, infowindow)
     })
   });
+  // Array that holds all "Hotel" cooardinates and info window content on index.html//
+  const HOTEL_LOCATION = [{
+      location: ['53.0067626661293', '-6.0841184'],
+      infowindow: '<p class="infoWindowHeader font-style">Hunters Hotel</p>' +
+        "<p class='infoWindowText font-style'>Ireland's oldest coaching inn. The hotel has been operated by the same family for 200 years and offers great food, gardens and old style Irish charm.</p>" +
+        '<p class="infoWindowLink font-style"><a href="http://hunters.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['52.9965114542257', '-6.06685856931849'],
+      infowindow: '<p class="infoWindowHeader font-style">Tinakilly House Hotel</p>' +
+        "<p class='infoWindowText font-style'>Victorian House Set in 14 acres of landscaped gardens overlooking the Irish Sea. Friendly staff with great food and menu suiting all dietary requirments.</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://tinakilly.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.1859515238745', '-6.18052616136301'],
+      infowindow: '<p class="infoWindowHeader font-style">Powerscourt Hotel</p>' +
+        "<p class='infoWindowText font-style'>5 star Hotel overlooking the valleys below with the Sugar Loaf Mountain taking centre stage. This hotels offers great food, service and has fantastic spa facilities.</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://www.powerscourthotel.com/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.0922176994459', '-6.07880898465924'],
+      infowindow: '<p class="infoWindowHeader font-style">Druids Glen Resort</p>' +
+        "<p class='infoWindowText font-style'>5 star Druids Glen Resort located overlooking a famous Golf course between the Wicklow Mountains and the Irish Sea. Great food, fantastic service and they aso have a great spa facilities.</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://www.druidsglenresort.com/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.0120432920305', '-6.32576730000349'],
+      infowindow: '<p class="infoWindowHeader font-style">The Glendalough Hotel</p>' +
+        "<p class='infoWindowText font-style'>Steps from the 6th Century Glendalough monastic site, The hotels offers comfort, great food and friendly staff.</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://www.glendaloughhotel.com/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.2025366596059', '-6.09823289999999'],
+      infowindow: '<p class="infoWindowHeader font-style">The Martello Hotel</p>' +
+        "<p class='infoWindowText font-style'>Set along the Bray prominade, this hotel is an all rounder offering great food, friendly staff and nightlife.</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://www.themartello.ie/" target="_blank">Click for more info!</a></p>'
+    },
+  ]
+  $('#btn-3').click(function () {
+    HOTEL_LOCATION.forEach(item => {
+      const {
+        location,
+        infowindow
+      } = item
+      addmarker(location, infowindow)
+    })
+  });
 }
