@@ -227,10 +227,99 @@ function initMap() {
       infowindow: '<p class="infoWindowHeader font-style">The Martello Hotel</p>' +
         "<p class='infoWindowText font-style'>Set along the Bray prominade, this hotel is an all rounder offering great food, friendly staff and nightlife.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://www.themartello.ie/" target="_blank">Click for more info!</a></p>'
-    },
+    }
   ]
   $('#btn-3').click(function () {
     HOTEL_LOCATION.forEach(item => {
+      const {
+        location,
+        infowindow
+      } = item
+      addmarker(location, infowindow)
+    })
+  });
+  // Array that holds all "Restaurant" cooardinates and info window content on index.html//
+  const RESTAURANT_LOCATION = [{
+      location: ['53.0092422235413', '-6.30057306931849'],
+      infowindow: '<p class="infoWindowHeader font-style">The Wicklow Heather</p>' +
+        "<p class='infoWindowText font-style'>Amazing food and staff that will go above and beyond to ensure you leave with a smile on your face</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://wicklowheather.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.2025366596059', '-6.09823289999999'],
+      infowindow: '<p class="infoWindowHeader font-style">The Martello Bray</p>' +
+        "<p class='infoWindowText font-style'>Set along the Bray prominade, they offer great food with an extensive menu to suit all dietary requirements.</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://www.themartello.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.2080352013691', '-6.1022978'],
+      infowindow: '<p class="infoWindowHeader font-style">Dockyard 8</p>' +
+        "<p class='infoWindowText font-style'>Incredible food and friendly staff located just off Bray prominade.</p>" +
+        '<p class="infoWindowLink font-style"><a href="http://dockyardno8.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.173016', '-6.140285'],
+      infowindow: '<p class="infoWindowHeader font-style">Avoca Handweavers</p>' +
+        "<p class='infoWindowText font-style'>Restaurant surrounded by ancient trees and rolling gardens, offering fantastic food to suit all dietary requirements.</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://www.avoca.com" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.1459736269818', '-6.06432274602225'],
+      infowindow: '<p class="infoWindowHeader font-style">The Happy Pear</p>' +
+        "<p class='infoWindowText font-style'>Plant based restaurant aimed at vegetarians/vegans. They offer a great selection of food and the restaurant is frequented by celebrities from all over the worldwide.</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://thehappypear.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.1451324178434', '-6.06292408465924'],
+      infowindow: '<p class="infoWindowHeader font-style">The Hungry Monk</p>' +
+        "<p class='infoWindowText font-style'>Homely restaurant, famous for Seafood and game. The staff are attentive and the food is amazing.</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://www.thehungrymonk.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.065041660822', '-6.22443316931849'],
+      infowindow: '<p class="infoWindowHeader font-style">The Coach House</p>' +
+        "<p class='infoWindowText font-style'>Award winning Irish Pub with an extensice menu. Great food and attentive staff.</p>" +
+        '<p class="infoWindowLink font-style"><a href="http://thecoachhouse.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.22169', '-6.219101'],
+      infowindow: '<p class="infoWindowHeader font-style">Johnny Foxes Pub</p>' +
+        "<p class='infoWindowText font-style'>Johnnie Fox’s is one of Ireland’s oldest offering great food and friendly staff. Renowned for being the highest pub in the country and they offer Irish dancing shows nightly. This falls more in the Dublin mountains but is easily reached from the Wicklow mountains. It's highly recommended!</p>" +
+        '<p class="infoWindowLink font-style"><a href="http://thecoachhouse.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.2025816', '-6.0990651'],
+      infowindow: '<p class="infoWindowHeader font-style">Box Burger</p>' +
+        "<p class='infoWindowText font-style'>Burger bar offering 100% prime locally sourced beef burgers with toppings and twists for all to enjoy. Great cocktails and friendly staff.</p>" +
+        '<p class="infoWindowLink font-style"><a href="http://boxburger.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.1340334992376', '-6.0911357191536'],
+      infowindow: '<p class="infoWindowHeader font-style">The Horse and Hound</p>' +
+        "<p class='infoWindowText font-style'>Cozy, friendly country pub offering a great menu for all dietary requirements. Great food and atmosphere.</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://www.horseandhounddelgany.com/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.205332', '-6.099935'],
+      infowindow: '<p class="infoWindowHeader font-style">Platform Pizza</p>' +
+        "<p class='infoWindowText font-style'>Platform Pizza Bar is a great place to enjoy fresh oven baked pizza. Great food and friendly staff!</p>" +
+        '<p class="infoWindowLink font-style"><a href="http://www.platformpizzabar.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['53.1326111', '-6.0923319999999'],
+      infowindow: '<p class="infoWindowHeader font-style">Pidgeon House Cafe</p>' +
+        "<p class='infoWindowText font-style'>Great Cafe with an eclectic menu that will be sure to give you a great dining experience. Fantastic food and friendly staff.</p>" +
+        '<p class="infoWindowLink font-style"><a href="http://pigeonhouse.ie/" target="_blank">Click for more info!</a></p>'
+    },
+    {
+      location: ['52.8802570240102', '-6.33103791534399'],
+      infowindow: '<p class="infoWindowHeader font-style">Pidgeon House Cafe</p>' +
+        "<p class='infoWindowText font-style'>Award winning Organic Restaurant with great food and service located at the southern foothills of the Wicklow mountains. Great food and service!</p>" +
+        '<p class="infoWindowLink font-style"><a href="https://www.brooklodge.com/en/strawberry-tree-restaurant/" target="_blank">Click for more info!</a></p>'
+    }
+  ]
+  $('#btn-4').click(function () {
+    RESTAURANT_LOCATION.forEach(item => {
       const {
         location,
         infowindow
