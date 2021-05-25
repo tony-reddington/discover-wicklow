@@ -71,6 +71,14 @@
     - Befunky photo editor was used to crop and resize images.
 7.  [Bootstrap](https://getbootstrap.com/)
     - Bootstrap was used for the navbar and to make my website more responsive across different size devices.
+8.  [Coolers](https://coolors.co/)
+    - Coolers was used to help generate a colour palette for the entire site.
+9.  [Fancybox](http://fancybox.net/home)
+    - Fancybox tool was used to display images when enlarged.
+10. [Google Maps API](https://developers.google.com/maps)
+    - The Google Maps API was used to hold all the map markers and info windows for each travel location.
+11. [EmailJS](https://www.emailjs.com/)
+    - EmailJS was used to connect the submitted form to my email service.
 
 ## Testing
 
