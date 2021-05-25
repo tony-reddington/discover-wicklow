@@ -52,6 +52,9 @@
 ### Languages used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+* [JQuery](https://en.wikipedia.org/wiki/JQuery)
+
 
 ### Frameworks/Libraries and Programs used
 1.  [Balsamiq](https://balsamiq.com/)
