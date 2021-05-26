@@ -23,7 +23,7 @@ function initMap() {
       maxWidth: 200
     })
     marker.addListener("click", () => {
-    infowindow.open(map, marker);
+      infowindow.open(map, marker);
     });
     map.panTo(marker.getPosition());
   }
@@ -330,3 +330,20 @@ function initMap() {
     })
   });
 }
+
+$(document).ready(function () {
+
+  $(".map-buttons").mousedown(function () {
+    $(this).css("background-color", "#3AB64A");
+    $(this).css("box-shadow", "none");
+    $(this).css("border", "none");
+  });
+  $(".map-buttons").mouseup(function () {
+    $(this).css("background-color", "#2D7549").css("box-shadow", "5px 5px 10px #808080");
+  });
+  $(".map-buttons").hover(function () {
+    $(this).css("background-color", "#203448");
+  }, function () {
+    $(this).css("background-color", "#2D7549");
+  });
+});
