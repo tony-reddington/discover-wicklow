@@ -346,7 +346,7 @@ $(document).ready(function () {
   }, function () {
     $(this).css("background-color", "#2D7549");
   });
-// contact.html submit button mouse events //
+// index.html nav links mouse events //
   $(".nav-name").hover(function () {
     $(this).css("font-weight", "normal");
   }, function () {
