@@ -332,7 +332,7 @@ function initMap() {
 }
 
 $(document).ready(function () {
-
+// index.html map control button mouse events //
   $(".map-buttons").mousedown(function () {
     $(this).css("background-color", "#3AB64A");
     $(this).css("box-shadow", "none");
@@ -345,5 +345,11 @@ $(document).ready(function () {
     $(this).css("background-color", "#203448");
   }, function () {
     $(this).css("background-color", "#2D7549");
+  });
+// contact.html submit button mouse events //
+  $(".nav-name").hover(function () {
+    $(this).css("font-weight", "normal");
+  }, function () {
+    $(this).css("font-weight", "bold");
   });
 });
