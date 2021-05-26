@@ -1,3 +1,5 @@
+var infowindow;
+
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 7.75,
@@ -16,12 +18,12 @@ function initMap() {
       map: map,
       position: new google.maps.LatLng(lat, long)
     });
-    const infowindow = new google.maps.InfoWindow({
+    infowindow = new google.maps.InfoWindow({
       content: info,
       maxWidth: 200
     })
     marker.addListener("click", () => {
-      infowindow.open(map, marker);
+    infowindow.open(map, marker);
     });
     map.panTo(marker.getPosition());
   }
