@@ -79,6 +79,8 @@
     - The Google Maps API was used to hold all the map markers and info windows for each travel location.
 11. [EmailJS](https://www.emailjs.com/)
     - EmailJS was used to connect the submitted form to my email service.
+12. [Favicon](https://favicon.io/)
+    - EFavicon.io was used to create the website favicons.
 
 ## Testing
 
