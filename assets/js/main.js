@@ -1,4 +1,4 @@
-var infowindow;
+var emptyArray = [];
 
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
@@ -18,13 +18,23 @@ function initMap() {
       map: map,
       position: new google.maps.LatLng(lat, long)
     });
-    infowindow = new google.maps.InfoWindow({
+    const infowindow = new google.maps.InfoWindow({
       content: info,
       maxWidth: 200
     })
     marker.addListener("click", () => {
+      clearInfo();
       infowindow.open(map, marker);
+      emptyArray[0] = infowindow;
     });
+
+    function clearInfo() {
+      if (emptyArray.length > 0) {
+        emptyArray[0].set("marker", null);
+        emptyArray[0].close();
+        emptyArray[0].length = 0;
+      }
+    }
     map.panTo(marker.getPosition());
   }
   // Array that holds all "sights" cooardinates and info window content on index.html//
@@ -330,9 +340,8 @@ function initMap() {
     })
   });
 }
-
 $(document).ready(function () {
-// index.html map control button mouse events //
+  // index.html map control button mouse events //
   $(".map-buttons").mousedown(function () {
     $(this).css("background-color", "#3AB64A");
     $(this).css("box-shadow", "none");
@@ -346,7 +355,7 @@ $(document).ready(function () {
   }, function () {
     $(this).css("background-color", "#2D7549");
   });
-// index.html nav links mouse events //
+  // index.html nav links mouse events //
   $(".nav-name").hover(function () {
     $(this).css("font-weight", "normal");
   }, function () {
