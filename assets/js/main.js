@@ -361,4 +361,18 @@ $(document).ready(function () {
   }, function () {
     $(this).css("font-weight", "bold");
   });
+  // contact.html submit button mouse events//
+    $("#submit-button").mousedown(function () {
+    $(this).css("background-color", "#3AB64A");
+    $(this).css("box-shadow", "none");
+    $(this).css("border", "none");
+  });
+  $("#submit-button").mouseup(function () {
+    $(this).css("background-color", "#2D7549").css("box-shadow", "5px 5px 10px #808080");
+  });
+  $("#submit-button").hover(function () {
+    $(this).css("background-color", "#203448");
+  }, function () {
+    $(this).css("background-color", "#2D7549");
+  });
 });
