@@ -13,9 +13,9 @@ function initMap() {
   function addmarker(location, info) {
     const lat = location[0]
     const long = location[1]
-    console.log(info);
     const marker = new google.maps.Marker({
       map: map,
+      animation: google.maps.Animation.DROP,
       position: new google.maps.LatLng(lat, long)
     });
     const infowindow = new google.maps.InfoWindow({
