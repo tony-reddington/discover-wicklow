@@ -82,7 +82,7 @@ function initMap() {
     {
       location: ['52.915779', '-6.306077'],
       infowindow: '<p class="infoWindowHeader font-style">Greenan Maze</p>' +
-        "<p class='infoWindowText font-style'>Located in the Wicklow hills, the attractions feature two mazes, three museums, nature walks, woodlands, ponds, wildlife, farm animals, play areas, treasure hunt and fairy tree walk. Great for children!</p>" +
+        "<p class='infoWindowText font-style'>Located in the Wicklow hills, this attraction features two mazes, three museums, nature walks, woodlands, ponds, wildlife, farm animals, play areas, a treasure hunt and fairy tree walk. Great for children!</p>" +
         '<p class="infoWindowLink font-style"><a href="http://www.greenanmaze.com/" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -177,7 +177,7 @@ function initMap() {
     {
       location: ['53.107371', '-6.217245'],
       infowindow: '<p class="infoWindowHeader font-style">Ballinastoe</p>' +
-        '<p class="infoWindowText font-style">Trail offering fantastic views across the Wicklow Mountains and home to a pictureque wooden staircase throught he forest.</p>' +
+        '<p class="infoWindowText font-style">Trail offering fantastic views across the Wicklow mountains and home to pictureque wooden stairs through the forest.</p>' +
         '<p class="infoWindowLink font-style"><a href="https://gramho.com/location/ballinastoe-woods/836522161" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -189,7 +189,7 @@ function initMap() {
     {
       location: ['52.967148', '-6.464596'],
       infowindow: '<p class="infoWindowHeader font-style">Lugnaquilla</p>' +
-        '<p class="infoWindowText font-style">The highest mountain trail in Wicklow allows beaituful view of the ajoining wicklow mountains.</p>' +
+        '<p class="infoWindowText font-style">The highest mountain trail in Wicklow allows beautiful views of the adjoining Wicklow mountains.</p>' +
         '<p class="infoWindowLink font-style"><a href="https://www.theirishroadtrip.com/the-lugnaquilla-hike/" target="_blank">Click for more info!</a></p>'
     }
   ];
@@ -224,7 +224,7 @@ function initMap() {
     {
       location: ['53.0922176994459', '-6.07880898465924'],
       infowindow: '<p class="infoWindowHeader font-style">Druids Glen Resort</p>' +
-        "<p class='infoWindowText font-style'>5 star Druids Glen Resort located overlooking a famous Golf course between the Wicklow Mountains and the Irish Sea. Great food, fantastic service and they aso have a great spa facilities.</p>" +
+        "<p class='infoWindowText font-style'>5 star Druids Glen Resort located overlooking a famous Golf course between the Wicklow Mountains and the Irish Sea. Great food, fantastic service and first class spa facilities.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://www.druidsglenresort.com/" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -289,7 +289,7 @@ function initMap() {
     {
       location: ['53.065041660822', '-6.22443316931849'],
       infowindow: '<p class="infoWindowHeader font-style">The Coach House</p>' +
-        "<p class='infoWindowText font-style'>Award winning Irish Pub with an extensice menu. Great food and attentive staff.</p>" +
+        "<p class='infoWindowText font-style'>Award winning Irish Pub with an extensive menu. Great food and attentive staff.</p>" +
         '<p class="infoWindowLink font-style"><a href="http://thecoachhouse.ie/" target="_blank">Click for more info!</a></p>'
     },
     {
