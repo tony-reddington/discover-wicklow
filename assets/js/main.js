@@ -360,8 +360,13 @@ $(document).ready(function () {
   }, function () {
     $(this).css("font-weight", "bold");
   });
+  // About wicklow paragraph text on index.html mouse events//
+  $("#dropdown-icon").click(function () {
+    $(this).toggleClass("icon-flipped");
+    $("#dropdown-text").slideToggle("slow");
+  });
   // contact.html submit button mouse events//
-    $("#submit-button").mousedown(function () {
+  $("#submit-button").mousedown(function () {
     $(this).css("background-color", "#3AB64A");
     $(this).css("box-shadow", "none");
     $(this).css("border", "none");
