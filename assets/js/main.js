@@ -40,13 +40,13 @@ function initMap() {
   const SIGHTS_LOCATION = [{
       location: ['53.182391', '-6.102026'],
       infowindow: '<p class="infoWindowHeader font-style">Killruddery House</p>' +
-        '<p class="infoWindowText font-style">Enjoy a relaxing and leisurely walks in one of Ireland’s most renowned gardens followed by a beverage and cake in their Tea room.</p>' +
+        '<p class="infoWindowText font-style">Enjoy a relaxing and leisurely walk in one of Ireland’s most renowned gardens followed by a beverage and cake in their Tea room.</p>' +
         '<p class="infoWindowLink font-style"><a href="http://www.killruddery.com/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.072639', '-6.61573'],
       infowindow: '<p class="infoWindowHeader font-style">Athgreany Stone Circle</p>' +
-        '<p class="infoWindowText font-style">A megalith stone circle containing fourteen stones from Ireland ancient past.</p>' +
+        "<p class='infoWindowText font-style'>A megalith stone circle containing fourteen stones from Ireland's ancient past.</p>" +
         '<p class="infoWindowLink font-style"><a href="http://www.megalithicireland.com/Athgreany%20Stone%20Circle.html" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -58,19 +58,19 @@ function initMap() {
     {
       location: ['52.935707', '-6.153202'],
       infowindow: '<p class="infoWindowHeader font-style">The National Botanic Gardens</p>' +
-        "<p class='infoWindowText font-style'>Deemed as one of Ireland foremost heritage gardens, it's home to a collection of old and unusual Trees, wildflower meadows and double herbacious borders.</p>" +
+        "<p class='infoWindowText font-style'>Deemed as one of Ireland's foremost heritage gardens, it's home to a collection of old and unusual trees, wildflower meadows and double herbacious borders.</p>" +
         '<p class="infoWindowLink font-style"><a href="http://botanicgardens.ie/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.008751', '-6.107605'],
       infowindow: '<p class="infoWindowHeader font-style">Mount Usher Gardens</p>' +
-        "<p class='infoWindowText font-style'>These gardens house a collection of trees and shrubs with inspirational floral planting schemes, they also house an Avoca coffee shop to rest those weary legs after your stroll.</p>" +
+        "<p class='infoWindowText font-style'>These gardens house a collection of trees and shrubs with inspirational floral planting schemes.  They also house an Avoca coffee shop.</p>" +
         '<p class="infoWindowLink font-style"><a href="http://www.mountushergardens.ie/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.010476', '-6.327371'],
       infowindow: '<p class="infoWindowHeader font-style">Glendalough</p>' +
-        "<p class='infoWindowText font-style'>Glendalough is home to a 6th century monastic settlement which eventually became a monastic city with 2 x pictureque lakes alongside. A must see!</p>" +
+        "<p class='infoWindowText font-style'>Glendalough is home to a 6th century monastic settlement which eventually became a monastic city with two pictureque lakes alongside. A must see!</p>" +
         '<p class="infoWindowLink font-style"><a href="https://www.glendalough.ie/" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -88,13 +88,13 @@ function initMap() {
     {
       location: ['53.147003', '-6.209378'],
       infowindow: '<p class="infoWindowHeader font-style">Powerscourt Waterfall</p>' +
-        "<p class='infoWindowText font-style'>Powerscourt Waterfall is Wicklow's highest, the property allows patrons to have a bbq/picnic beneath the beautiful waterfall plus they have a childrens playground.</p>" +
+        "<p class='infoWindowText font-style'>Powerscourt Waterfall is Wicklow's highest. The property allows patrons to have a bbq/picnic beneath the beautiful waterfall plus they have a children's playground.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://powerscourt.com/waterfall" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.107461', '-6.256886'],
       infowindow: '<p class="infoWindowHeader font-style">Lough Tay (Guinness Lake)</p>' +
-        "<p class='infoWindowText font-style'>Lake visible from the mountian peak above the lake. The lake is said to look like a pint of Guinness plus it was previously owned by the Guinness family.</p>" +
+        "<p class='infoWindowText font-style'>The lake is visible from the mountain peak above the lake and is said to look like a pint of Guinness.  It was plus it was previously owned by the Guinness family.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://www.tripadvisor.ie/Attraction_Review-g186646-d14152818-Reviews-Guinness_Lake-Wicklow_County_Wicklow.html" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -112,13 +112,13 @@ function initMap() {
     {
       location: ['53.0858713226281', '-6.21964628903168'],
       infowindow: '<p class="infoWindowHeader font-style">Victors Way</p>' +
-        "<p class='infoWindowText font-style'>A beautiful forest garden notable for its giant black granite hindu sculptures.</p>" +
+        "<p class='infoWindowText font-style'>A meditation forest garden notable for its giant black granite Hindu sculptures.</p>" +
         '<p class="infoWindowLink font-style"><a href="http://victorsway.eu/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.1870716129907', '-6.39690002727892'],
       infowindow: '<p class="infoWindowHeader font-style">Seefin Passage Tomb</p>' +
-        "<p class='infoWindowText font-style'>Neolithic passage tomb located atop Seefin Hill with incredible views.</p>" +
+        "<p class='infoWindowText font-style'>A Neolithic passage tomb located atop Seefin Hill with incredible views.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://en.wikipedia.org/wiki/Seefin_Passage_Tomb" target="_blank">Click for more info!</a></p>'
     }
   ];
@@ -141,7 +141,7 @@ function initMap() {
     {
       location: ['53.167049', '-6.525192'],
       infowindow: '<p class="infoWindowHeader font-style">The Blessington Greenway</p>' +
-        '<p class="infoWindowText font-style">This trail starts in Blessington town and weaves between the Blessington Lake shore and forestry.</p>' +
+        '<p class="infoWindowText font-style">This trail weaves its way along the lake shore and forest, crossing an ancient medieval Ringfort.</p>' +
         '<p class="infoWindowLink font-style"><a href="https://blessington.ie/greenway/" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -159,31 +159,31 @@ function initMap() {
     {
       location: ['52.914311', '-6.226029'],
       infowindow: '<p class="infoWindowHeader font-style">Avondale Forest Park</p>' +
-        '<p class="infoWindowText font-style">This Forest Park provides a variety of trails for walking with each trail varying in length.</p>' +
+        '<p class="infoWindowText font-style">This Forest Park provides a variety of trails for walking, running or cycling with each trail varying in length.</p>' +
         '<p class="infoWindowLink font-style"><a href="https://www.coillte.ie/site/avondale-forest-park/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.011559', '-6.325636'],
       infowindow: '<p class="infoWindowHeader font-style">Wicklow Way</p>' +
-        '<p class="infoWindowText font-style">This trail is for the more experiences walker that and could take multiple hours but offers landscape views that are incredible!</p>' +
+        '<p class="infoWindowText font-style">This trail is for the more experienced walker and could take multiple hours but offers landscape views that are incredible!</p>' +
         '<p class="infoWindowLink font-style"><a href="https://www.wicklowway.com/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['52.97317', '-6.388721'],
       infowindow: '<p class="infoWindowHeader font-style">Miners Path</p>' +
-        '<p class="infoWindowText font-style">Zigzag track through a Pine forest climbing high leading you to breathtaking view of the Valley below.</p>' +
+        '<p class="infoWindowText font-style">A zigzag track through a Pine forest climbing high and leading you to breathtaking views of the valley below.</p>' +
         '<p class="infoWindowLink font-style"><a href="https://www.allaroundireland.ie/glenmalure-valley/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.107371', '-6.217245'],
       infowindow: '<p class="infoWindowHeader font-style">Ballinastoe</p>' +
-        '<p class="infoWindowText font-style">Trail offering fantastic views across the Wicklow mountains and home to pictureque wooden stairs through the forest.</p>' +
+        '<p class="infoWindowText font-style">Trail offering fantastic views across the Wicklow mountains and home to picturesque wooden stairs through the forest.</p>' +
         '<p class="infoWindowLink font-style"><a href="https://gramho.com/location/ballinastoe-woods/836522161" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.006927', '-6.343671'],
       infowindow: '<p class="infoWindowHeader font-style">Glendalough Spinc</p>' +
-        '<p class="infoWindowText font-style">This Glendalough Spinc trail offers spectacular views of the Glendalough valley. Different route options depending on your fitness level.</p>' +
+        '<p class="infoWindowText font-style">This Glendalough Spinc trail offers spectacular views of the Glendalough valley. There are different route options depending on your fitness level.</p>' +
         '<p class="infoWindowLink font-style"><a href="https://hikesneardublin.com/glendalough-spink-walk/" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -230,13 +230,13 @@ function initMap() {
     {
       location: ['53.0120432920305', '-6.32576730000349'],
       infowindow: '<p class="infoWindowHeader font-style">The Glendalough Hotel</p>' +
-        "<p class='infoWindowText font-style'>Steps from the 6th Century Glendalough monastic site, The hotels offers comfort, great food and friendly staff.</p>" +
+        "<p class='infoWindowText font-style'>Just steps away from the 6th Century Glendalough monastic site, the hotels offers comfort, great food and friendly staff.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://www.glendaloughhotel.com/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.2025366596059', '-6.09823289999999'],
       infowindow: '<p class="infoWindowHeader font-style">The Martello Hotel</p>' +
-        "<p class='infoWindowText font-style'>Set along the Bray prominade, this hotel is an all rounder offering great food, friendly staff and nightlife.</p>" +
+        "<p class='infoWindowText font-style'>Set along the Bray promenade, this hotel is an all-rounder offering great food, friendly staff and nightlife.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://www.themartello.ie/" target="_blank">Click for more info!</a></p>'
     }
   ];
@@ -253,19 +253,19 @@ function initMap() {
   const RESTAURANT_LOCATION = [{
       location: ['53.0092422235413', '-6.30057306931849'],
       infowindow: '<p class="infoWindowHeader font-style">The Wicklow Heather</p>' +
-        "<p class='infoWindowText font-style'>Amazing food and staff that will go above and beyond to ensure you leave with a smile on your face</p>" +
+        "<p class='infoWindowText font-style'>Amazing food and staff that will go out of their way to ensure you leave with a smile on your face.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://wicklowheather.ie/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.2025366596059', '-6.09823289999999'],
       infowindow: '<p class="infoWindowHeader font-style">The Martello Bray</p>' +
-        "<p class='infoWindowText font-style'>Set along the Bray prominade, they offer great food with an extensive menu to suit all dietary requirements.</p>" +
+        "<p class='infoWindowText font-style'>Set along the Bray promenade, they offer great food with an extensive menu to suit all dietary requirements.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://www.themartello.ie/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['53.2080352013691', '-6.1022978'],
       infowindow: '<p class="infoWindowHeader font-style">Dockyard 8</p>' +
-        "<p class='infoWindowText font-style'>Incredible food and friendly staff located just off Bray prominade.</p>" +
+        "<p class='infoWindowText font-style'>Incredible food and friendly staff located just off Bray promenade.</p>" +
         '<p class="infoWindowLink font-style"><a href="http://dockyardno8.ie/" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -277,7 +277,7 @@ function initMap() {
     {
       location: ['53.1459736269818', '-6.06432274602225'],
       infowindow: '<p class="infoWindowHeader font-style">The Happy Pear</p>' +
-        "<p class='infoWindowText font-style'>Plant based restaurant aimed at vegetarians/vegans. They offer a great selection of food and the restaurant is frequented by celebrities from all over the worldwide.</p>" +
+        "<p class='infoWindowText font-style'>Plant based restaurant aimed at vegetarians/vegans and frequented by international celebrities.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://thehappypear.ie/" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -295,7 +295,7 @@ function initMap() {
     {
       location: ['53.22169', '-6.219101'],
       infowindow: '<p class="infoWindowHeader font-style">Johnny Foxes Pub</p>' +
-        "<p class='infoWindowText font-style'>Johnnie Fox’s is one of Ireland’s oldest offering great food and friendly staff. Renowned for being the highest pub in the country and they offer Irish dancing shows nightly. This falls more in the Dublin mountains but is easily reached from the Wicklow mountains. It's highly recommended!</p>" +
+        "<p class='infoWindowText font-style'>Johnnie Fox’s is one of Ireland’s oldest pub's in Ireland, it offer's great food and friendly staff plus Irish dancing shows nightly. This pub/restaurant is located in the Dublin mountains but is easily reached from the Wicklow mountains. It's highly recommended!</p>" +
         '<p class="infoWindowLink font-style"><a href="http://thecoachhouse.ie/" target="_blank">Click for more info!</a></p>'
     },
     {
@@ -319,13 +319,13 @@ function initMap() {
     {
       location: ['53.1326111', '-6.0923319999999'],
       infowindow: '<p class="infoWindowHeader font-style">Pidgeon House Cafe</p>' +
-        "<p class='infoWindowText font-style'>Great Cafe with an eclectic menu that will be sure to give you a great dining experience. Fantastic food and friendly staff.</p>" +
+        "<p class='infoWindowText font-style'>Great Cafe with an eclectic menu for what promises to be an exciting dining experience. Great food and friendly staff.</p>" +
         '<p class="infoWindowLink font-style"><a href="http://pigeonhouse.ie/" target="_blank">Click for more info!</a></p>'
     },
     {
       location: ['52.8802570240102', '-6.33103791534399'],
       infowindow: '<p class="infoWindowHeader font-style">Pidgeon House Cafe</p>' +
-        "<p class='infoWindowText font-style'>Award winning Organic Restaurant with great food and service located at the southern foothills of the Wicklow mountains. Great food and service!</p>" +
+        "<p class='infoWindowText font-style'>Award winning Organic Restaurant with great food and service located in the southern foothills of the Wicklow mountains.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://www.brooklodge.com/en/strawberry-tree-restaurant/" target="_blank">Click for more info!</a></p>'
     }
   ];
