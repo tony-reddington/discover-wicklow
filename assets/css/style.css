@@ -125,7 +125,7 @@ body {
   margin-top: auto;
 }
 
-footer p {
+footer p, #phone-number {
   color: #ffffff;
   padding: 2.5px 0;
   margin: 0;
@@ -156,7 +156,7 @@ footer p {
     margin: 40px;
   }
 
-  footer p {
+  footer p, #phone-number {
     font-size: 2vw;
   }
 
@@ -189,7 +189,7 @@ footer p {
     margin: 45px;
   }
 
-  footer p {
+  footer p, #phone-number {
     font-size: 2.1vw;
   }
 
@@ -240,7 +240,7 @@ footer p {
     margin: 50px;
   }
 
-  footer p {
+  footer p, #phone-number {
     font-size: 2.3vw;
   }
 
@@ -285,7 +285,7 @@ footer p {
     letter-spacing: 1.5px;
   }
 
-  footer p {
+  footer p, #phone-number {
     font-size: 15px;
   }
 
