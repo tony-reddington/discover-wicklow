@@ -9,10 +9,9 @@ function initMap() {
     }
   });
 
-
   function addmarker(location, info) {
-    const lat = location[0]
-    const long = location[1]
+    const lat = location[0];
+    const long = location[1];
     const marker = new google.maps.Marker({
       map: map,
       animation: google.maps.Animation.DROP,
@@ -21,7 +20,7 @@ function initMap() {
     const infowindow = new google.maps.InfoWindow({
       content: info,
       maxWidth: 200
-    })
+    });
     marker.addListener("click", () => {
       clearInfo();
       infowindow.open(map, marker);
@@ -122,15 +121,15 @@ function initMap() {
         "<p class='infoWindowText font-style'>Neolithic passage tomb located atop Seefin Hill with incredible views.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://en.wikipedia.org/wiki/Seefin_Passage_Tomb" target="_blank">Click for more info!</a></p>'
     }
-  ]
+  ];
   $('#btn-1').click(function () {
     SIGHTS_LOCATION.forEach(item => {
       const {
         location,
         infowindow
-      } = item
-      addmarker(location, infowindow)
-    })
+      } = item;
+      addmarker(location, infowindow);
+    });
   });
   // Array that holds all "walking trail" cooardinates and info window content on index.html//
   const WALKING_TRAIL_LOCATION = [{
@@ -193,15 +192,15 @@ function initMap() {
         '<p class="infoWindowText font-style">The highest mountain trail in Wicklow allows beaituful view of the ajoining wicklow mountains.</p>' +
         '<p class="infoWindowLink font-style"><a href="https://www.theirishroadtrip.com/the-lugnaquilla-hike/" target="_blank">Click for more info!</a></p>'
     }
-  ]
+  ];
   $('#btn-2').click(function () {
     WALKING_TRAIL_LOCATION.forEach(item => {
       const {
         location,
         infowindow
-      } = item
-      addmarker(location, infowindow)
-    })
+      } = item;
+      addmarker(location, infowindow);
+    });
   });
   // Array that holds all "Hotel" cooardinates and info window content on index.html//
   const HOTEL_LOCATION = [{
@@ -240,15 +239,15 @@ function initMap() {
         "<p class='infoWindowText font-style'>Set along the Bray prominade, this hotel is an all rounder offering great food, friendly staff and nightlife.</p>" +
         '<p class="infoWindowLink font-style"><a href="https://www.themartello.ie/" target="_blank">Click for more info!</a></p>'
     }
-  ]
+  ];
   $('#btn-3').click(function () {
     HOTEL_LOCATION.forEach(item => {
       const {
         location,
         infowindow
-      } = item
-      addmarker(location, infowindow)
-    })
+      } = item;
+      addmarker(location, infowindow);
+    });
   });
   // Array that holds all "Restaurant" cooardinates and info window content on index.html//
   const RESTAURANT_LOCATION = [{
@@ -329,15 +328,15 @@ function initMap() {
         "<p class='infoWindowText font-style'>Award winning Organic Restaurant with great food and service located at the southern foothills of the Wicklow mountains. Great food and service!</p>" +
         '<p class="infoWindowLink font-style"><a href="https://www.brooklodge.com/en/strawberry-tree-restaurant/" target="_blank">Click for more info!</a></p>'
     }
-  ]
+  ];
   $('#btn-4').click(function () {
     RESTAURANT_LOCATION.forEach(item => {
       const {
         location,
         infowindow
-      } = item
-      addmarker(location, infowindow)
-    })
+      } = item;
+      addmarker(location, infowindow);
+    });
   });
 }
 $(document).ready(function () {
