@@ -350,7 +350,7 @@ $(document).ready(function () {
     $(this).css("background-color", "#2D7549").css("box-shadow", "5px 5px 10px #808080");
   });
   $(".map-buttons").hover(function () {
-    $(this).css("background-color", "#203448");
+    $(this).css("background-color", "#203448").css("border", "none");
   }, function () {
     $(this).css("background-color", "#2D7549");
   });
