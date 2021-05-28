@@ -1,496 +1,500 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .font-style {
-    font-family: 'Lato', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 /*******************************************Navbar styling*/
 .navbar {
-    background-color: #33954A !important;
-    padding: 0 1rem 0 0;
+  background-color: #33954A !important;
+  padding: 0 1rem 0 0;
 }
 
 .navbar .nav-item a {
-    color: #ffffff !important;
-    font-size: 1em;
-    font-family: 'lato' !important;
-    padding-left: 10px;
-    text-decoration: underline;
+  color: #ffffff !important;
+  font-size: 1em;
+  font-family: 'lato' !important;
+  padding-left: 10px;
+  text-decoration: underline;
 }
 
 .navbar-toggler {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .navbar-light .navbar-toggler {
-    border-color: #203448;
+  border-color: #203448;
 }
 
 /*********************Navbar logo image styling************************/
 .logo-size {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /*********************Main image styling************************/
 #main-image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /*********************About Wicklow paragraph on index.html page************************/
 #about-paragraph {
-    text-align: center;
-    font-size: .75em;
-    color: #203448;
-    padding: 20px 20px 0 20px;
+  text-align: center;
+  font-size: .75em;
+  color: #203448;
+  padding: 20px 20px 0 20px;
 }
 
 #dropdown-text {
-    display: none;
+  display: none;
 }
 
 #dropdown-icon {
-    font-size: 150%;
-    padding-top: 5px;
-    color: #2D7549;
-    cursor: pointer;
+  font-size: 150%;
+  padding-top: 5px;
+  color: #2D7549;
+  cursor: pointer;
+}
+
+.icon-flipped {
+  transform: rotate(180deg);
 }
 
 /*********************Map control buttons styling************************/
 #map-buttons-div {
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0px 20px;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 20px;
 }
 
 .map-buttons {
-    width: 10em;
-    height: auto;
-    margin: 5px 5px;
-    color: #ffffff;
-    background-color: #2D7549;
-    border: 3px #2D7549 solid;
-    font-size: 3vw;
-    box-shadow: 5px 5px 10px #808080;
+  width: 10em;
+  height: auto;
+  margin: 5px 5px;
+  color: #ffffff;
+  background-color: #2D7549;
+  border: 3px #2D7549 solid;
+  font-size: 3vw;
+  box-shadow: 5px 5px 10px #808080;
 }
 
 /*********************Map styling************************/
 
 #map {
-    width: auto;
-    height: 250px;
-    margin: 20px;
+  width: auto;
+  height: 250px;
+  margin: 20px;
 }
 
 /*********************Map info window styling************************/
 .infoWindowHeader {
-    font-size: 14px;
-    font-weight: bold;
-    color: #203448;
+  font-size: 14px;
+  font-weight: bold;
+  color: #203448;
 }
 
 .infoWindowText {
-    font-size: 14px;
-    color: #203448;
+  font-size: 14px;
+  color: #203448;
 }
 
 .infoWindowLink a {
-    font-size: 14px;
-    text-decoration: underline;
-    color: #2D7549;
-    font-weight: bold;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #2D7549;
+  font-weight: bold;
 }
 
 /*********************Footer styling************************/
 .main-footer {
-    background-color: #33954A;
-    padding: 10px 0px 5px 0px;
-    margin-top: auto;
+  background-color: #33954A;
+  padding: 10px 0px 5px 0px;
+  margin-top: auto;
 }
 
 footer p {
-    color: #ffffff;
-    padding: 2.5px 0;
-    margin: 0;
-    font-size: 2.5vw;
+  color: #ffffff;
+  padding: 2.5px 0;
+  margin: 0;
+  font-size: 2.5vw;
 }
 
 .icon {
-    color: #ffffff;
-    font-size: large;
-    margin: 0;
-    padding: 10px;
+  color: #ffffff;
+  font-size: large;
+  margin: 0;
+  padding: 10px;
 }
 
 /*********************Media queries************************/
 
 @media only screen and (min-width: 576px) {
-    #about-paragraph {
-        font-size: .90em;
-        padding: 20px 40px 10px 40px;
-    }
+  #about-paragraph {
+    font-size: .90em;
+    padding: 20px 40px 10px 40px;
+  }
 
-    #map-buttons-div {
-        padding: 0px 40px;
-    }
+  #map-buttons-div {
+    padding: 0px 40px;
+  }
 
-    #map {
+  #map {
     height: 350px;
     margin: 40px;
-    }
+  }
 
-    footer p {
-        font-size: 2vw;
-    }
+  footer p {
+    font-size: 2vw;
+  }
 
-    .icon {
-        font-size: 25px;
-    }
+  .icon {
+    font-size: 25px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .navbar {
-        padding: 0 2rem 0 0;
-    }
+  .navbar {
+    padding: 0 2rem 0 0;
+  }
 
-    .navbar .nav-item a {
-        font-size: 1.2em;
-        padding-left: 20px;
-    }
+  .navbar .nav-item a {
+    font-size: 1.2em;
+    padding-left: 20px;
+  }
 
-    #about-paragraph {
-        font-size: 1.2em;
-        padding: 25px 45px 15px 45px;
-    }
+  #about-paragraph {
+    font-size: 1.2em;
+    padding: 25px 45px 15px 45px;
+  }
 
-    #map-buttons-div {
-        padding: 0px 45px;
-    }
- 
-    #map {
+  #map-buttons-div {
+    padding: 0px 45px;
+  }
+
+  #map {
     height: 450px;
     margin: 45px;
-    }
+  }
 
-    footer p {
-        font-size: 2.1vw;
-    }
+  footer p {
+    font-size: 2.1vw;
+  }
 
-    .icon {
-        font-size: 35px;
-    }
+  .icon {
+    font-size: 35px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    .navbar {
-        align-items: flex-end;
-        padding-bottom: 1rem;
-    }
+  .navbar {
+    align-items: flex-end;
+    padding-bottom: 1rem;
+  }
 
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 2.2rem;
-        padding-left: 2.2rem;
-        padding-top: 2.5rem;
-        border-bottom: 3px #ffffff solid;
-    }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+    padding-top: 2.5rem;
+    border-bottom: 3px #ffffff solid;
+  }
 
-    .navbar .nav-item a {
-        font-size: 1.5em;
-        text-decoration: none;
-        font-weight: bold;
-        letter-spacing: 2px;
-    }
+  .navbar .nav-item a {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
 
-    .nav-link {
-        padding: .25rem 0;
-    }
+  .nav-link {
+    padding: .25rem 0;
+  }
 
-    #about-paragraph {
-        font-size: 1.7em;
-        padding: 30px 50px 30px 50px;
-    }
+  #about-paragraph {
+    font-size: 1.7em;
+    padding: 30px 50px 30px 50px;
+  }
 
-    #map-buttons-div {
-        display: flex !important;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        padding: 0px 50px;
-    }
+  #map-buttons-div {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0px 50px;
+  }
 
-    #map {
+  #map {
     height: 550px;
     margin: 50px;
-    }
+  }
 
-    footer p {
-        font-size: 2.3vw;
-    }
+  footer p {
+    font-size: 2.3vw;
+  }
 
-    .icon {
-        font-size: 45px;
-    }
+  .icon {
+    font-size: 45px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    .logo-size {
-        max-width: 300px;
-    }
+  .logo-size {
+    max-width: 300px;
+  }
 
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 4rem;
-        padding-left: 4rem;
-    }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
 
-    #mainImage-div {
-        max-height: 675px;
-        overflow: hidden;
-    }
+  #mainImage-div {
+    max-height: 675px;
+    overflow: hidden;
+  }
 
-    #about-paragraph {
-        font-size: 20px;
-        padding: 30px 70px 30px 70px;
-    }
+  #about-paragraph {
+    font-size: 20px;
+    padding: 30px 70px 30px 70px;
+  }
 
-    #map-buttons-div {
-        padding: 0px 70px;
-    }
+  #map-buttons-div {
+    padding: 0px 70px;
+  }
 
-    #map {
+  #map {
     height: 700px;
     margin: 70px;
-    }
+  }
 
-    .map-buttons {
-        max-width: 500px;
-        color: #ffffff;
-        font-size: 20px;
-        letter-spacing: 1.5px;
-    }
+  .map-buttons {
+    max-width: 500px;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+  }
 
-    footer p {
-        font-size: 15px;
-    }
+  footer p {
+    font-size: 15px;
+  }
 
-    .icon {
-        font-size: 45px;
-    }
+  .icon {
+    font-size: 45px;
+  }
 }
 
 /*********************Contact.html styling************************/
 #background-image {
-    background-image: url("../images/contact-background.jpg");
-    padding-bottom: 30px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
+  background-image: url("../images/contact-background.jpg");
+  padding-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
 }
 
 .form-header {
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  letter-spacing: 1px;
 }
 
 form.container {
-    padding: 25px 40px !important;
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-    box-shadow: 5px 5px 20px #000000;
-    background-color: #fff;
-    border-radius: 25px;
+  padding: 25px 40px !important;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 5px 5px 20px #000000;
+  background-color: #fff;
+  border-radius: 25px;
 }
 
 form label {
-    font-size: 16px;
-    font-weight: 700;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .input-two,
 .input-three {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .input-box,
 #text-box {
-    border: 1px #203448 solid;
-    width: 100%;
+  border: 1px #203448 solid;
+  width: 100%;
 }
 
 #text-box {
-    max-height: 200px;
-    font-size: 16px;
-    resize: none;
+  max-height: 200px;
+  font-size: 16px;
+  resize: none;
 }
 
 /*********************Send message button styling************************/
 
 .submit-div {
-    text-align: center;
-    padding-top: 20px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 #submit-button {
-    background-color: #2D7549;
-    color: #ffffff;
-    font-weight: bold;
-    letter-spacing: 1px;
-    box-shadow: 5px 5px 10px #808080;
-    border-radius: 10px;
-    width: 140px;
-    height: 35px;
-    text-transform: capitalize;
+  background-color: #2D7549;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 5px 5px 10px #808080;
+  border-radius: 10px;
+  width: 140px;
+  height: 35px;
+  text-transform: capitalize;
 }
 
 /*********************Styling of message that will appear beneath the Send Message button************************/
 #onSubmitText {
-    font-size: 80%;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 15px;
-    color: #33954A;
+  font-size: 80%;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  color: #33954A;
 }
 
 /*********************Contact.html media queries************************/
 
 @media only screen and (max-width: 359px) {
-    .form-header {
-        font-size: 16px;
-        padding: 20px 0;
-    }
+  .form-header {
+    font-size: 16px;
+    padding: 20px 0;
+  }
 
-    form.container {
-        padding: 25px 20px !important;
-        width: 90%;
-    }
+  form.container {
+    padding: 25px 20px !important;
+    width: 90%;
+  }
 
-    form label {
-        font-size: 14px;
-    }
+  form label {
+    font-size: 14px;
+  }
 
-    #submit-button {
-        font-size: 12px;
-        width: 110px;
-        height: 25px;
-    }
+  #submit-button {
+    font-size: 12px;
+    width: 110px;
+    height: 25px;
+  }
 }
 
 @media only screen and (min-width: 490px) {
-    #background-image {
-        background-position: top;
-    }
+  #background-image {
+    background-position: top;
+  }
 
-    .form-header {
-        font-size: 25px;
-        padding: 30px 0;
-    }
+  .form-header {
+    font-size: 25px;
+    padding: 30px 0;
+  }
 
-    form.container {
-        max-width: 350px;
-    }
+  form.container {
+    max-width: 350px;
+  }
 
-    form label {
-        font-size: 16px;
-    }
+  form label {
+    font-size: 16px;
+  }
 
-    #submit-button {
-        font-size: 15px;
-        width: 150px;
-        height: 35px;
-    }
+  #submit-button {
+    font-size: 15px;
+    width: 150px;
+    height: 35px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    #background-image {
-        background-position: center center;
-    }
+  #background-image {
+    background-position: center center;
+  }
 
-    .form-header {
-        font-size: 35px;
-        padding: 35px 0;
-    }
+  .form-header {
+    font-size: 35px;
+    padding: 35px 0;
+  }
 
-    form.container {
-        max-width: 400px;
-    }
+  form.container {
+    max-width: 400px;
+  }
 
-    form label {
-        font-size: 20px;
-    }
+  form label {
+    font-size: 20px;
+  }
 
-    #submit-button {
-        font-size: 20px;
-        width: 180px;
-        height: 40px;
-    }
+  #submit-button {
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    .form-header {
-        font-size: 40px;
-        padding: 45px 0;
-    }
+  .form-header {
+    font-size: 40px;
+    padding: 45px 0;
+  }
 
-    form.container {
-        max-width: 450px;
-    }
+  form.container {
+    max-width: 450px;
+  }
 
-    form label {
-        font-size: 25px;
-    }
+  form label {
+    font-size: 25px;
+  }
 
-    #submit-button {
-        font-size: 25px;
-        width: 190px;
-        height: 45px;
-    }
+  #submit-button {
+    font-size: 25px;
+    width: 190px;
+    height: 45px;
+  }
 }
 
 /*********************gallery.html styling************************/
 #gallery-header {
-    text-align: center;
-    margin: 10px 0;
+  text-align: center;
+  margin: 10px 0;
 }
 
 .gallery-text {
-    font-size: 20px;
-    font-weight: bold;
-    color: #203448;
+  font-size: 20px;
+  font-weight: bold;
+  color: #203448;
 }
 
 #gallery-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 #gallery-container a {
-    flex-basis: 90%;
-    margin: 5px;
+  flex-basis: 90%;
+  margin: 5px;
 }
 
 #gallery-container a img {
-    width: 100%;
+  width: 100%;
 }
 
 
@@ -498,54 +502,54 @@ form label {
 /*********************gallery.html media queries************************/
 
 @media only screen and (min-width: 400px) {
-    .gallery-text {
-        font-size: 25px;
-    }
+  .gallery-text {
+    font-size: 25px;
+  }
 }
 
 @media only screen and (min-width: 576px) {
-    .gallery-text {
-        font-size: 30px;
-    }
+  .gallery-text {
+    font-size: 30px;
+  }
 
-    #gallery-container {
-        margin-bottom: 40px;
-        margin-top: 20px;
-    }
+  #gallery-container {
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
 
-    #gallery-container a {
-        flex-basis: 40%;
-        margin: 5px;
-    }
+  #gallery-container a {
+    flex-basis: 40%;
+    margin: 5px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .gallery-text {
-        font-size: 35px;
-    }
+  .gallery-text {
+    font-size: 35px;
+  }
 
-    #gallery-container {
-        margin-bottom: 60px;
-    }
+  #gallery-container {
+    margin-bottom: 60px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    .gallery-text {
-        font-size: 40px;
-    }
+  .gallery-text {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    .gallery-text {
-        font-size: 45px;
-    }
+  .gallery-text {
+    font-size: 45px;
+  }
 
-    #gallery-container {
-        margin-bottom: 50px;
-    }
+  #gallery-container {
+    margin-bottom: 50px;
+  }
 
-    #gallery-container a {
-        flex-basis: 30%;
-        margin: 15px 10px;
-    }
-}   
+  #gallery-container a {
+    flex-basis: 30%;
+    margin: 15px 10px;
+  }
+}
