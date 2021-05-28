@@ -48,11 +48,23 @@ body {
     height: auto;
 }
 
+/*********************About Wicklow paragraph on index.html page************************/
 #about-paragraph {
     text-align: center;
     font-size: .75em;
     color: #203448;
     padding: 20px 20px 0 20px;
+}
+
+#dropdown-text {
+    display: none;
+}
+
+#dropdown-icon {
+    font-size: 150%;
+    padding-top: 5px;
+    color: #2D7549;
+    cursor: pointer;
 }
 
 /*********************Map control buttons styling************************/
