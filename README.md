@@ -56,7 +56,19 @@
 ## Features
 
 ### Existing Features
-
+ * The website is made of of three pages that are connected by a responsive navigation bar in the header section with the company logo appearing on the left. The navigation bar changes to a hamburger button on smaller screen sizes. A footer appears at the bottom of each page containing the address/ clickable phone number and social links.
+ * #### Home page
+   * The landing page image shows users the most popular site in Wicklow and show them what Wicklow has to offer.
+   * There is limited text about Wicklow that will slide down once the user clicks the down arrow button beneath the text.
+   * Buttons controls the markers on the map and when the markers are clicked am info window opens showing the user some brief information and a website if available.
+ * #### Gallery page
+   * The Gallery features 9 x images of the most popular location in Wicklow to inspire the user and help them choose where to travel in Wicklow.
+   * When each image is clicked, the responsive fancybox is activivated enlarging the image showing the site name allowing the user to click left or right through the images.
+ * #### Contact page
+   * The Gallery page has tect tellign the user to contact us for further info.
+   * A form is centred on the page that required all info to be filled and on submit will send the info thorugh email.js to my email.
+   * On clicking send the user will receive a response beneath the button to let them know if the message was sent successfully or if the message failed to send.
+   * The page also features a background image of Shamrocks to represent Ireland and give the page some character.
 ### Features for future implimentation
 
 ## Technology Used
