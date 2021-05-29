@@ -78,7 +78,6 @@
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [Javascript](https://en.wikipedia.org/wiki/JavaScript)
-* [JQuery](https://en.wikipedia.org/wiki/JQuery)
 
 
 ### Frameworks/Libraries and Programs used
@@ -105,7 +104,9 @@
 11. [EmailJS](https://www.emailjs.com/)
     - EmailJS was used to connect the submitted form to my email service.
 12. [Favicon](https://favicon.io/)
-    - EFavicon.io was used to create the website favicons.
+    - Favicon.io was used to create the website favicons.
+13. [JQuery](https://jquery.com/)
+    - JQuery was used to add interactivity across the website.
 
 ## Testing
 
