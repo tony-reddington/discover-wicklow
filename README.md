@@ -93,6 +93,9 @@
 
 ## Testing
 
+* [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) - [Results](assets/images/css-results.JPG)
+* [W3C Markup validator](https://validator.w3.org/) - [Home page results](assets/images/home-results.JPG) - [Gallery page results](assets/images/gallery-results.JPG) - [Contact page results](assets/images/contact-results.JPG)
+
 ### Testing user Stories
 -   #### User Goals
 
