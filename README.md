@@ -70,7 +70,8 @@
    * On clicking send the user will receive a response beneath the button to let them know if the message was sent successfully or if the message failed to send.
    * The page also features a background image of Shamrocks to represent Ireland and give the page some character.
 ### Features for future implimentation
-
+ * Images for each infowindow
+ * Map directions from current location to each marker location
 ## Technology Used
 
 ### Languages used
