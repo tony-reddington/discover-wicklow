@@ -140,6 +140,12 @@ The website was deployed to github pages following the steps below -
 
 ### Forking the GitHub Repository
 
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [Discover Wicklow](https://github.com/tony-reddington/discover-wicklow)
+2. At the top right of the Repository just below the navigation bar, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
 ### Making a Local Clone
 
 ## Credits
