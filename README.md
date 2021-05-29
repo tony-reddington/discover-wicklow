@@ -44,6 +44,12 @@
 
 #### Wireframes
 
+* [Home wireframe](assets/wireframes/home.pdf)
+
+* [Gallery wireframe](assets/wireframes/gallery.pdf)
+
+* [Contact wireframe](assets/wireframes/contact-us.pdf)
+
 ## Features
 
 ### Existing Features
