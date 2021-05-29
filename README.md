@@ -9,8 +9,8 @@
 
 #### The user goals will be to:
 * Research information in the Wicklow region for their his/her next trip.
-* Easily isolate map marker information using buttons by Sights, Walking trails, Hotels and Restaurants.
-* Find website and contact information for each map marker where available.
+* View marker information by clicking buttons.
+* Find brief overview and website for each map marker where available.
 * View selection of photography for travel inspiration with text showing where each image was taken.
 * Contact the website owner for further travel information and guidance.
 
@@ -21,7 +21,7 @@
 * the website responsive across devices so i can swap and change devices as i please and still see the website clearly.
 * the page laid out neatly so that i can find information effortlessly.
 * all sights, walking trail, hotel and restaurant information provided on a map so i can plan my trip based on my available travel time.
-* contact information available for each map marker recommendation so i can contact to make a booking or do further research to plan my trip.
+* contact information available for each map marker recommendation so i can plan my trip.
 * to see images of the Wicklow area to help inspire and identify where i want to travel in the region.
 * a website contact page so i can make contact with the website owner to ask further questions.
 
@@ -30,9 +30,9 @@
 #### As the site site owner, i want - 
 * to influence the user to travel and spend money in the Wicklow region by providing recommendations.
 * to provide them with Sight/Walking tour/ Hotel and Restaurant information as markers on a map. 
-* provide labels for each map marker giving the user contact and website information where available allowing the user to book or do further research.
+* provide an infowindow for each map marker giving the user a brief overview of the location with website information where available allowing the user to do further research.
 * to provide an image gallery of Wicklow and help the user choose which areas they want to visit.
-* the user to have a contact page where they can contact me through the website and ask questions about any category not covered on the map or any miscellaneous questions.
+* the user to have a contact page where they can contact me through the website and ask questions about any category not covered on the map or ask any miscellaneous questions.
 
 ### Design
 
@@ -44,7 +44,7 @@
  - The font used across the website is Lato because its simple and easy to read with sans serif as the fall back font.
 
 #### Imagery
-
+ - The imagery used scross the website all represent Wicklow. The main image on the home page is of Glendalough and is the most popular sight visited in Wicklow. Further popular Wicklow tourist location imagery appears on the Gallery page showing what Wicklow has to offer. The Contact page has a background image featuring Shamrocks representing Ireland adding some flare to the page.  
 #### Wireframes
 
 * [Home wireframe](assets/wireframes/home.pdf)
