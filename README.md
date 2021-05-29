@@ -121,6 +121,9 @@
 -   #### Site Owner Goals
 
 ### Further Testing
+ * The website was tested on Chrome, Safar and Firefox with no issues found.
+ * Google Dev tools were used in the creation of the website and to ensure each page was responsive across all device screen sizes.
+ * Google dev lighthouse was used to test the performance/ accessibility/ best practice and SEO and all return a high score.
 
 ## Deployment
 
