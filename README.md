@@ -37,8 +37,11 @@
 ### Design
 
 #### Colour Scheme
+ - The colours used across the website are Greens to represent Wicklow in Ireland, White for simplicity and Navy for the font colour on the White background rather than plain Black because it makes the text stand out on the screen.
+![](assets/images/colour-theme.png)
 
 #### Typography
+ - The font used across the website is Lato because its simple and easy to read with sans serif as the fall back font.
 
 #### Imagery
 
@@ -95,6 +98,7 @@
 
 * [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) - [Results](assets/images/css-results.JPG)
 * [W3C Markup validator](https://validator.w3.org/) - [Home page results](assets/images/home-results.JPG) - [Gallery page results](assets/images/gallery-results.JPG) - [Contact page results](assets/images/contact-results.JPG)
+* [JSHint](https://jshint.com/) - I passed both main.js and sendEmail.js through JSHint and both results showed no errors.
 
 ### Testing user Stories
 -   #### User Goals
