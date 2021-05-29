@@ -129,6 +129,15 @@
 
 ### Github Pages
 
+The website was deployed to github pages following the steps below -
+
+1. Login to github pages and locate the [Discover Wicklow](https://github.com/tony-reddington/discover-wicklow)
+2. At the top of the repository page you must locate the settings button.
+3. Scroll down the page until you find the "Github pages" section then click "Check it out here!".
+4. Under "Source", click the dropdown called "None", select "Master Branch" and click save.
+5. The page will automatically refresh.
+6. The now published site [link](https://tony-reddington.github.io/discover-wicklow/) will appear above "Source".
+
 ### Forking the GitHub Repository
 
 ### Making a Local Clone
