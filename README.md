@@ -145,6 +145,18 @@
     * A contact form is available on the contact page for asking questions.
 
 -   #### Site Owner Goals
+    ##### As the site site owner, i want - 
+1. to influence the user to travel and spend money in the Wicklow region by providing recommendations.
+    * The user is provided with images, text about Wicklow and an abundance of travel information through map marker info windows.
+2. to provide them with Sight/Walking tour/ Hotel and Restaurant information as markers on a map. 
+    * Map markers appear on the map when the buttons are clicked.
+3. provide an infowindow for each map marker giving the user a brief overview of the location with website information where available allowing the user to do further research.
+    * An infowindow is visible when each map markers is clicked. Each infowindow contains the location name, a brief overview about the location and a website where available.
+4. to provide an image gallery of Wicklow and help the user choose which areas they want to visit.
+    * Nine images are available with the gallery page.
+5. the user to have a contact page where they can contact me through the website and ask questions about any category not covered on the map or ask any miscellaneous questions.
+    * The user can make contact using the form on the contact page.
+
 
 ### Further Testing
  * The website was tested on Chrome, Safar and Firefox with no issues found.
