@@ -107,6 +107,12 @@
     - Favicon.io was used to create the website favicons.
 13. [JQuery](https://jquery.com/)
     - JQuery was used to add interactivity across the website.
+14. [Web Formatter](https://webformatter.com/)
+    - Web Formatter was used to format the CSS stylesheet and all html pages to make the code easier to read.
+15. [Gitpod](https://gitpod.io/)
+    - Gitpod was used to write the website code.
+16. [Github](https://github.com/)
+    - Github was used to host the code and website contents.
 
 ## Testing
 
