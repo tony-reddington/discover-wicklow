@@ -225,7 +225,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     async>
 </script>
 ```
-2. Paste your updated script text that now incluse your API key over the existing script on index.html from line 104 to line 106.
+2. Paste your updated script text that now includes your API key over the existing script on index.html from line 102.
 
 ## Credits
 
