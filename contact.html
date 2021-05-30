@@ -22,7 +22,7 @@
 
   <body>
     <header class="main-header">
-      <!--Bootstrap navbar -->
+      <!--*********************Navbar code extracted from Bootstrap and tailored to requirements************************-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand col-5 col-md-4 col-lg-8 col-xl-7" href="index.html">
@@ -47,6 +47,7 @@
         </div>
       </nav>
     </header>
+    <!--*********************Div holds the background image with form************************-->
     <div id="background-image">
       <div class="form-header font-style">Contact us for further info...!</div>
       <form onsubmit="return sendMail(this);" class="container" id="contactForm">
@@ -71,7 +72,7 @@
         <div id="onSubmitText" class="font-style"></div>
       </form>
     </div>
-    <!-- Footer -->
+    <!--*********************Footer************************-->
     <footer class="main-footer">
       <div class="main-footer-div">
         <div class="col-12 text-center">
@@ -94,10 +95,14 @@
         </div>
       </div>
     </footer>
+    <!--*********************jQuery script library to enable the mouse events************************-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!--*********************Bootstrap scripts that control the navbar and allow responsiveness on parts of the website************************-->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <!--*********************Script linking to sendemail.js that returns a response when send message is clicked************************-->
     <script src="assets/js/sendEmail.js"></script>
+    <!--*********************Script linking to main javascript file************************-->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
