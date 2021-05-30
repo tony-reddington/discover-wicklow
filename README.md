@@ -8,7 +8,7 @@
 ### User Experience (UX)
 
 #### The user goals will be to:
-* Research information in the Wicklow region for their his/her next trip.
+* Research information in the Wicklow region for their next trip.
 * View marker information by clicking buttons.
 * Find brief overview and website for each map marker where available.
 * View selection of photography for travel inspiration with text showing where each image was taken.
@@ -116,6 +116,16 @@
 
 ### Testing user Stories
 -   #### User Goals
+1. Research information in the Wicklow region for their next trip.
+    * The website displays text providing information about Wicklow, a map showing all the relevant locations and images to help them choose whre to travel. 
+2. View marker information by clicking buttons.
+    * The markers drop on to the map when the map when the buttons are clicked.
+3. Find brief overview and website for each map marker where available.
+    * When each marker is clicked, an info window appears and displays location information and a website if one is available.
+4. View selection of photography for travel inspiration with text showing where each image was taken.
+    * Nine images are displayed on the gallery page with locational information available when the image is clicked and enlarged.
+5. Contact the website owner for further travel information and guidance.
+    * The contact page provides a form allowing the user to contact the owner.
 
 -   #### User Stories
 
