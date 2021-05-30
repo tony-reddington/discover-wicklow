@@ -224,10 +224,15 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Credits
 
 ### Code
+* Bootstrap was used for the navbar and to add responsiveness to parts of the website.
+* [W3 Schools](https://www.w3schools.com/) & [Stack overflow](https://stackoverflow.com/) were used to help find tips and solutions.
 
 ### Content
+* All text throughout the website was written by the developer.
 
 ### Media
 * All images were downloaded from [Istock](https://www.istockphoto.com/) with credit to WoutervandenBroek, RobinsonBecquart, trabantos, Pablo Escuder Cano, yykkaa, Roman Overko, Dawid Kalisinski Photography, eldarsverdlov, espiegle, Aitormmfoto & MNStudio.
 * The company logo was created using [Canva](https://www.canva.com/).
 ### Acknowledgements
+* My mentor Medale Oluwafemi who gave pointers and feedback.
+* Family and friends for testing the website across multiple devices.
