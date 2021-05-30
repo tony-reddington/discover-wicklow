@@ -173,6 +173,17 @@ $ git clone https://github.com/tony-reddington/discover-wicklow
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
+### Replacing Google maps API key
+
+1. Replace the star text below with you Google Maps API key - 
+```HTML5
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=*******************************&callback=initMap&libraries=&v=weekly"
+    async>
+</script>
+```
+2. Paste your updated script text that now incluse your API key over the existing script on index.html from line 104 to line 106.
+
 ## Credits
 
 ### Code
