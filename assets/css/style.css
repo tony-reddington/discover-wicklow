@@ -363,6 +363,7 @@ form label {
 #submit-button {
   background-color: #2D7549;
   color: #ffffff;
+  font-size: 75%;
   font-weight: bold;
   letter-spacing: 1px;
   box-shadow: 5px 5px 10px #808080;
