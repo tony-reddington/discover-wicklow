@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .font-style {
-  font-family: 'Lato', sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 html {
@@ -16,14 +16,14 @@ body {
 
 /*******************************************Navbar styling*/
 .navbar {
-  background-color: #33954A !important;
+  background-color: #33954a !important;
   padding: 0 1rem 0 0;
 }
 
 .navbar .nav-item a {
   color: #ffffff !important;
   font-size: 1em;
-  font-family: 'lato' !important;
+  font-family: "lato" !important;
   padding-left: 10px;
   text-decoration: underline;
 }
@@ -51,7 +51,7 @@ body {
 /*********************About Wicklow paragraph on index.html page************************/
 #about-paragraph {
   text-align: center;
-  font-size: .75em;
+  font-size: 0.75em;
   color: #203448;
   padding: 20px 20px 0 20px;
 }
@@ -63,7 +63,7 @@ body {
 #dropdown-icon {
   font-size: 150%;
   padding-top: 5px;
-  color: #2D7549;
+  color: #2d7549;
   cursor: pointer;
 }
 
@@ -85,7 +85,7 @@ body {
   height: auto;
   margin: 5px 5px;
   color: #ffffff;
-  background-color: #2D7549;
+  background-color: #2d7549;
   border: none;
   font-size: 3vw;
   box-shadow: 5px 5px 10px #808080;
@@ -114,18 +114,19 @@ body {
 .infoWindowLink a {
   font-size: 14px;
   text-decoration: underline;
-  color: #2D7549;
+  color: #2d7549;
   font-weight: bold;
 }
 
 /*********************Footer styling************************/
 .main-footer {
-  background-color: #33954A;
+  background-color: #33954a;
   padding: 10px 0px 5px 0px;
   margin-top: auto;
 }
 
-footer p, #phone-number {
+footer p,
+#phone-number {
   color: #ffffff;
   padding: 2.5px 0;
   margin: 0;
@@ -144,7 +145,7 @@ footer p, #phone-number {
 
 @media only screen and (min-width: 576px) {
   #about-paragraph {
-    font-size: .90em;
+    font-size: 0.9em;
     padding: 20px 40px 10px 40px;
   }
 
@@ -157,7 +158,8 @@ footer p, #phone-number {
     margin: 40px;
   }
 
-  footer p, #phone-number {
+  footer p,
+  #phone-number {
     font-size: 2vw;
   }
 
@@ -190,7 +192,8 @@ footer p, #phone-number {
     margin: 45px;
   }
 
-  footer p, #phone-number {
+  footer p,
+  #phone-number {
     font-size: 2.1vw;
   }
 
@@ -220,7 +223,7 @@ footer p, #phone-number {
   }
 
   .nav-link {
-    padding: .25rem 0;
+    padding: 0.25rem 0;
   }
 
   #about-paragraph {
@@ -241,7 +244,8 @@ footer p, #phone-number {
     margin: 50px;
   }
 
-  footer p, #phone-number {
+  footer p,
+  #phone-number {
     font-size: 2.3vw;
   }
 
@@ -286,7 +290,8 @@ footer p, #phone-number {
     letter-spacing: 1.5px;
   }
 
-  footer p, #phone-number {
+  footer p,
+  #phone-number {
     font-size: 15px;
   }
 
@@ -361,7 +366,7 @@ form label {
 }
 
 #submit-button {
-  background-color: #2D7549;
+  background-color: #2d7549;
   color: #ffffff;
   font-size: 75%;
   font-weight: bold;
@@ -380,7 +385,7 @@ form label {
   font-weight: bold;
   text-align: center;
   padding-top: 15px;
-  color: #33954A;
+  color: #33954a;
 }
 
 /*********************Contact.html media queries************************/
@@ -505,8 +510,6 @@ form label {
 #gallery-container a img {
   width: 100%;
 }
-
-
 
 /*********************gallery.html media queries************************/
 
