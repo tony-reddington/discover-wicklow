@@ -128,6 +128,21 @@
     * The contact page provides a form allowing the user to contact the owner.
 
 -   #### User Stories
+    ##### As a user, i want - 
+1. the navigation bar clearly visible so i can easily navigate the website.
+    * The navigation bar is repsonsive across all devices and is in clear view at the top right hand side of the page.
+2. the website responsive across devices so i can swap and change devices as i please and still see the website clearly.
+    * The website is fully responsive across all screen sizes.
+3. the page laid out neatly so that i can find information effortlessly.
+    * The website is seperated over three pages making it east to find everything.
+4. all sights, walking trail, hotel and restaurant information provided on a map so i can plan my trip based on my available travel time.
+    * All sights, walking trail, hotel and restaurant information is displayed on the map when the button controls are clicked.
+5. contact information available for each map marker recommendation so i can plan my trip.
+    * When the map marker is clicked an info window is displayed providing a website where available. 
+6. to see images of the Wicklow area to help inspire and identify where i want to travel in the region.
+    * Nine images are available on the gallery page with identifier text when clicked and enlarged.
+7. a website contact page so i can make contact with the website owner to ask further questions.
+    * A contact form is available on the contact page for asking questions.
 
 -   #### Site Owner Goals
 
