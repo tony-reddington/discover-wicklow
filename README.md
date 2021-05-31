@@ -3,33 +3,33 @@
 # Discover Wicklow
 ![responsive website](assets/images/responsive-image.jpg)
 
-## The goal of this website is to target both International and National travelers and influence them to travel to the Co.Wicklow region. The website provides a map with markers, showing various areas of interest such as sights, walking trails, Hotels and Restaurants allowing users to find information in one place and providing links/phone numbers for each recommendation to make it easier for them to research and plan their trip. The website also shows images of the Wicklow region in a gallery and a contact page for users to ask for further information.
+## The goal of this website is to target both International and National travellers and influence them to travel to the Co. Wicklow region. The website provides a map with markers, showing various areas of interest such as sights, walking trails, Hotels and Restaurants allowing users to find information in one place, providing a brief overview of each location and website links for each recommendation to make it easier for the user to research and plan their trip. The website also shows images of the Wicklow region in a gallery and a contact page for users to ask for further information.
 
 ### User Experience (UX)
 
 #### The user goals will be to:
 * Research information in the Wicklow region for their next trip.
 * View marker information by clicking buttons.
-* Find brief overview and website for each map marker where available.
-* View selection of photography for travel inspiration with text showing where each image was taken.
+* Find a brief overview and website for each map marker where available.
+* View a selection of photography for travel inspiration with text showing where each image was taken.
 * Contact the website owner for further travel information and guidance.
 
 ### User Stories
 
-#### As a user, i want - 
-* the navigation bar clearly visible so i can easily navigate the website.
-* the website responsive across devices so i can swap and change devices as i please and still see the website clearly.
-* the page laid out neatly so that i can find information effortlessly.
-* all sights, walking trail, hotel and restaurant information provided on a map so i can plan my trip based on my available travel time.
-* contact information available for each map marker recommendation so i can plan my trip.
-* to see images of the Wicklow area to help inspire and identify where i want to travel in the region.
-* a website contact page so i can make contact with the website owner to ask further questions.
+#### As a user, I want - 
+* the navigation bar clearly visible so I can easily navigate the website.
+* the website responsive across devices so I can swap and change devices as I please and still see the website clearly.
+* the page laid out neatly so that I can find information effortlessly.
+* all sights, walking trails, hotels and restaurants information provided on a map so I can plan my trip based on my available travel time.
+* contact information available for each map marker recommendation so I can plan my trip.
+* to see images of the Wicklow area to help inspire and identify where I want to travel in the region.
+* a website contact page so I can make contact with the website owner to ask further questions.
 
 ### Site owner goals
 
-#### As the site site owner, i want - 
+#### As the site owner, I want - 
 * to influence the user to travel and spend money in the Wicklow region by providing recommendations.
-* to provide them with Sight/Walking tour/ Hotel and Restaurant information as markers on a map. 
+* to provide them with Sight/Walking trail/Hotel and Restaurant information as markers on a map. 
 * provide an infowindow for each map marker giving the user a brief overview of the location with website information where available allowing the user to do further research.
 * to provide an image gallery of Wicklow and help the user choose which areas they want to visit.
 * the user to have a contact page where they can contact me through the website and ask questions about any category not covered on the map or ask any miscellaneous questions.
@@ -41,10 +41,10 @@
 ![](assets/images/colour-theme.png)
 
 #### Typography
- - The font used across the website is Lato because its simple and easy to read with sans serif as the fall back font.
+ - The font used across the website is Lato because it is simple and easy to read with Sans Serif as the fall back font.
 
 #### Imagery
- - The imagery used scross the website all represent Wicklow. The main image on the home page is of Glendalough and is the most popular sight visited in Wicklow. Further popular Wicklow tourist location imagery appears on the Gallery page showing what Wicklow has to offer. The Contact page has a background image featuring Shamrocks representing Ireland adding some flare to the page.  
+ - The imagery used throughout the website all represents Wicklow. The main image on the home page is of Glendalough and is the most popular sight visited in Wicklow. Further popular Wicklow tourist location imagery appears on the Gallery page showing what Wicklow has to offer. The Contact page has a background image featuring Shamrocks representing Ireland adding some flare to the page.  
 #### Wireframes
 
 * [Home wireframe](assets/wireframes/home.pdf)
@@ -56,18 +56,18 @@
 ## Features
 
 ### Existing Features
- * The website is made of of three pages that are connected by a responsive navigation bar in the header section with the company logo appearing on the left. The navigation bar changes to a hamburger button on smaller screen sizes. A footer appears at the bottom of each page containing the address/ clickable phone number and social links.
+ * The website is made of three pages that are connected by a responsive navigation bar in the header section with the company logo appearing on the left. The navigation bar changes to a hamburger button on smaller screen sizes. A footer appears at the bottom of each page containing the address/clickable phone number and social links.
  * #### Home page
-   * The landing page image shows users the most popular site in Wicklow and show them what Wicklow has to offer.
+   * The landing page image shows users the most popular site in Wicklow.
    * There is limited text about Wicklow that will slide down once the user clicks the down arrow button beneath the text.
-   * Buttons controls the markers on the map and when the markers are clicked am info window opens showing the user some brief information and a website if available.
+   * Buttons control the markers on the map and when the markers are clicked an infowindow opens showing the user some brief information and a website when available.
  * #### Gallery page
-   * The Gallery features 9 x images of the most popular location in Wicklow to inspire the user and help them choose where to travel in Wicklow.
-   * When each image is clicked, the responsive fancybox is activivated enlarging the image showing the site name allowing the user to click left or right through the images.
+   * The gallery features 9 x images of the most popular locations in Wicklow to inspire the user and help them choose where to travel in Wicklow.
+   * When each image is clicked, the responsive fancybox is activated enlarging the image showing the site name allowing the user to click left or right through the images.
  * #### Contact page
-   * The Gallery page has tect tellign the user to contact us for further info.
-   * A form is centred on the page that required all info to be filled and on submit will send the info thorugh email.js to my email.
-   * On clicking send the user will receive a response beneath the button to let them know if the message was sent successfully or if the message failed to send.
+   * The Gallery page has text promting the user to contact us for further info.
+   * A form is centred on the page that requires all info to be filled and on submit will send the info through email.js to my email.
+   * On clicking the 'Send Message' button, the user will receive response text beneath the button to let them know if the message was sent successfully or if the message failed to send.
    * The page also features a background image of Shamrocks to represent Ireland and give the page some character.
 ### Features for future implimentation
  * Images for each infowindow
@@ -94,7 +94,7 @@
 6.  [Befunky photo editor](https://www.befunky.com/)
     - Befunky photo editor was used to crop and resize images.
 7.  [Bootstrap](https://getbootstrap.com/)
-    - Bootstrap was used for the navbar and to make my website more responsive across different size devices.
+    - Bootstrap was used for the navbar and to make the website more responsive in certain areas.
 8.  [Coolers](https://coolors.co/)
     - Coolers was used to help generate a colour palette for the entire site.
 9.  [Fancybox](http://fancybox.net/home)
@@ -108,11 +108,11 @@
 13. [JQuery](https://jquery.com/)
     - JQuery was used to add interactivity across the website.
 14. [Web Formatter](https://webformatter.com/)
-    - Web Formatter was used to format the CSS stylesheet and all html pages to make the code easier to read.
+    - Web Formatter was used to format the CSS stylesheet and all HTML pages to make the code easier to read.
 15. [Gitpod](https://gitpod.io/)
     - Gitpod was used to write the website code.
-16. [Github](https://github.com/)
-    - Github was used to host the code and website contents.
+16. [GitHub](https://github.com/)
+    - GitHub was used to host the code and website contents.
 
 ## Testing
 
@@ -123,26 +123,26 @@
 ### Testing user Stories
 -   #### User Goals
 1. Research information in the Wicklow region for their next trip.
-    * The website displays text providing information about Wicklow, a map showing all the relevant locations and images to help them choose whre to travel. 
+    * The website displays text providing information about Wicklow, a map showing all the relevant locations and images to help them choose where to travel. 
 2. View marker information by clicking buttons.
-    * The markers drop on to the map when the map when the buttons are clicked.
+    * The markers drop on to the map when the buttons are clicked.
 3. Find brief overview and website for each map marker where available.
-    * When each marker is clicked, an info window appears and displays location information and a website if one is available.
+    * When each marker is clicked, an infowindow appears and displays location information and a website link if one is available.
 4. View selection of photography for travel inspiration with text showing where each image was taken.
     * Nine images are displayed on the gallery page with locational information available when the image is clicked and enlarged.
 5. Contact the website owner for further travel information and guidance.
     * The contact page provides a form allowing the user to contact the owner.
 
 -   #### User Stories
-    ##### As a user, i want - 
+    ##### As a user, I want - 
 1. the navigation bar clearly visible so i can easily navigate the website.
-    * The navigation bar is repsonsive across all devices and is in clear view at the top right hand side of the page.
+    * The navigation bar is responsive across all devices and is in clear view at the top right hand side of the page.
 2. the website responsive across devices so i can swap and change devices as i please and still see the website clearly.
     * The website is fully responsive across all screen sizes.
 3. the page laid out neatly so that i can find information effortlessly.
-    * The website is seperated over three pages making it east to find everything.
-4. all sights, walking trail, hotel and restaurant information provided on a map so i can plan my trip based on my available travel time.
-    * All sights, walking trail, hotel and restaurant information is displayed on the map when the button controls are clicked.
+    * The website is separated over three pages making it easy to find everything.
+4. all sights, walking trails, hotels and restaurants information provided on a map so i can plan my trip based on my available travel time.
+    * All sights, walking trails, hotels and restaurants information is displayed on the map when the button controls are clicked.
 5. contact information available for each map marker recommendation so i can plan my trip.
     * When the map marker is clicked an info window is displayed providing a website where available. 
 6. to see images of the Wicklow area to help inspire and identify where i want to travel in the region.
@@ -151,17 +151,17 @@
     * A contact form is available on the contact page for asking questions.
 
 -   #### Site Owner Goals
-    ##### As the site site owner, i want - 
+    ##### As the site owner, I want - 
 1. to influence the user to travel and spend money in the Wicklow region by providing recommendations.
     * The user is provided with images, text about Wicklow and an abundance of travel information through map marker info windows.
-2. to provide them with Sight/Walking tour/ Hotel and Restaurant information as markers on a map. 
+2. to provide them with Sight/Walking trail/Hotel and Restaurant information as markers on a map. 
     * Map markers appear on the map when the buttons are clicked.
 3. provide an infowindow for each map marker giving the user a brief overview of the location with website information where available allowing the user to do further research.
-    * An infowindow is visible when each map markers is clicked. Each infowindow contains the location name, a brief overview about the location and a website where available.
+    * An infowindow is visible when each map markers is clicked. Each infowindow contains the location name, a brief overview about the location and a website link where available.
 4. to provide an image gallery of Wicklow and help the user choose which areas they want to visit.
     * Nine images are available with the gallery page.
 5. the user to have a contact page where they can contact me through the website and ask questions about any category not covered on the map or ask any miscellaneous questions.
-    * The user can make contact using the form on the contact page.
+    * The user can make contact by filling in the form on the contact page and submitting.
 
 
 ### Further Testing
@@ -171,13 +171,13 @@
 
 ## Deployment
 
-### Github Pages
+### GitHub Pages
 
-The website was deployed to github pages following the steps below -
+The website was deployed to GitHub pages following the steps below -
 
 1. Login to github pages and locate the [Discover Wicklow](https://github.com/tony-reddington/discover-wicklow)
 2. At the top of the repository page you must locate the settings button.
-3. Scroll down the page until you find the "Github pages" section then click "Check it out here!".
+3. Scroll down the page until you find the "GitHub pages" section then click "Check it out here!".
 4. Under "Source", click the dropdown called "None", select "Master Branch" and click save.
 5. The page will automatically refresh.
 6. The now published site [link](https://tony-reddington.github.io/discover-wicklow/) will appear above "Source".
